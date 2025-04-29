@@ -13,7 +13,9 @@ export interface ThemeTypography extends ThemeTypographyVariantTypes {
   fontWeightRegular: number;
   fontWeightMedium: number;
   fontWeightBold: number;
-
+  fontWeightSemibold: number;
+  semibold: number;  
+ 
   // The font-size on the html element.
   htmlFontSize?: number;
 
@@ -124,6 +126,22 @@ export function createTypography(colors: ThemeColors, typographyInput: ThemeTypo
     lg: '18px',
   };
 
+  console.log('[createTypography] Returned object:', {
+   htmlFontSize,
+   pxToRem,
+   fontFamily,
+   fontFamilyMonospace,
+   fontSize,
+   fontWeightLight,
+   fontWeightRegular,
+   fontWeightMedium,
+   fontWeightBold,
+   fontWeightSemibold: 600,
+   semibold: 600,
+   size,
+   ...variants,
+ });
+
   return {
     htmlFontSize,
     pxToRem,
@@ -134,6 +152,8 @@ export function createTypography(colors: ThemeColors, typographyInput: ThemeTypo
     fontWeightRegular,
     fontWeightMedium,
     fontWeightBold,
+    fontWeightSemibold: 600,
+    semibold: 600,
     size,
     ...variants,
   };

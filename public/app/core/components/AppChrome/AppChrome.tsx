@@ -17,7 +17,7 @@ import { SectionNav } from './SectionNav/SectionNav';
 import { TopSearchBar } from './TopBar/TopSearchBar';
 import { TOP_BAR_LEVEL_HEIGHT } from './types';
 
-export interface Props extends PropsWithChildren<{}> {}
+export interface Props extends PropsWithChildren<{}> { }
 
 export function AppChrome({ children }: Props) {
   const { chrome } = useGrafana();

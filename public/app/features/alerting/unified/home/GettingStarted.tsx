@@ -32,7 +32,7 @@ export default function GettingStarted({ showWelcomeHeader }: { showWelcomeHeade
           <h3>How it works</h3>
           <ul className={styles.list}>
             <li>
-              Grafana alerting periodically queries data sources and evaluates the condition defined in the alert rule
+              NFM alerting periodically queries data sources and evaluates the condition defined in the alert rule
             </li>
             <li>If the condition is breached, an alert instance fires</li>
             <li>Firing instances are routed to notification policies based on matching labels</li>
@@ -63,7 +63,7 @@ export default function GettingStarted({ showWelcomeHeader }: { showWelcomeHeade
             </li>
           </ul>
           <div>
-            <ArrowLink href="https://grafana.com/docs/grafana/latest/alerting/" title="Read more in the Docs" />
+            <ArrowLink href="https://nfmconsulting.com" title="Read more..." />
           </div>
         </Stack>
       </ContentBox>
@@ -146,6 +146,7 @@ export function WelcomeHeader({ className }: { className?: string }) {
 
   return (
     <div className={styles.welcomeHeaderWrapper}>
+      <h1 className={styles.title}>Welcome to NFM Consulting</h1>
       <div className={styles.subtitle}>Learn about problems in your systems moments after they occur</div>
 
       <ContentBox className={cx(styles.ctaContainer, className)}>
@@ -177,6 +178,11 @@ export function WelcomeHeader({ className }: { className?: string }) {
 const getWelcomeHeaderStyles = (theme: GrafanaTheme2) => ({
   welcomeHeaderWrapper: css({
     color: theme.colors.text.primary,
+  }),
+  title: css({
+    fontSize: theme.typography.size.xl,
+    fontWeight: theme.typography.weight.semibold,
+    marginBottom: theme.spacing(1),
   }),
   subtitle: css({
     color: theme.colors.text.secondary,

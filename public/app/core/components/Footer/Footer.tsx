@@ -39,51 +39,16 @@ export let getFooterLinks = (): FooterLink[] => {
   ];
 };
 
-export function getVersionMeta(version: string) {
-  const isBeta = version.includes('-beta');
-
-  return {
-    hasReleaseNotes: true,
-    isBeta,
-  };
-}
-
+// 🔥 Replace default version links with NFM Consulting link
 export function getVersionLinks(hideEdition?: boolean): FooterLink[] {
-  const { buildInfo, licenseInfo } = config;
   const links: FooterLink[] = [];
-  const stateInfo = licenseInfo.stateInfo ? ` (${licenseInfo.stateInfo})` : '';
-
-  if (!hideEdition) {
-    links.push({
-      target: '_blank',
-      id: 'license',
-      text: `${buildInfo.edition}${stateInfo}`,
-      url: licenseInfo.licenseUrl,
-    });
-  }
-
-  if (buildInfo.hideVersion) {
-    return links;
-  }
-
-  const { hasReleaseNotes } = getVersionMeta(buildInfo.version);
 
   links.push({
     target: '_blank',
-    id: 'version',
-    text: `v${buildInfo.version} (${buildInfo.commit})`,
-    url: hasReleaseNotes ? `https://github.com/grafana/grafana/blob/main/CHANGELOG.md` : undefined,
+    id: 'nfm-footer',
+    text: '© 2025 NFM Consulting',
+    url: 'https://nfmconsulting.com',
   });
-
-  if (buildInfo.hasUpdate) {
-    links.push({
-      target: '_blank',
-      id: 'updateVersion',
-      text: `New version available!`,
-      icon: 'download-alt',
-      url: 'https://grafana.com/grafana/download?utm_source=grafana_footer',
-    });
-  }
 
   return links;
 }

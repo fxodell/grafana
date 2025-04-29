@@ -1,0 +1,1003 @@
+logger=cleanup t=2025-04-28T00:09:20.296853961Z level=info msg="Completed cleanup jobs" duration=10.990818ms
+logger=grafana.update.checker t=2025-04-28T00:09:20.413289713Z level=info msg="Update check succeeded" duration=28.37875ms
+logger=plugins.update.checker t=2025-04-28T00:09:20.450293718Z level=info msg="Update check succeeded" duration=47.957862ms
+logger=infra.usagestats t=2025-04-28T00:10:38.275192918Z level=info msg="Usage stats are ready to report"
+logger=infra.usagestats t=2025-04-28T00:13:52.09952426Z level=info msg="Sent usage stats" duration=40.496873ms
+logger=cleanup t=2025-04-28T00:19:20.297082107Z level=info msg="Completed cleanup jobs" duration=10.985714ms
+logger=grafana.update.checker t=2025-04-28T00:19:20.413922182Z level=info msg="Update check succeeded" duration=29.963564ms
+logger=plugins.update.checker t=2025-04-28T00:19:20.446774685Z level=info msg="Update check succeeded" duration=38.629724ms
+logger=cleanup t=2025-04-28T00:29:20.291717863Z level=info msg="Completed cleanup jobs" duration=5.563008ms
+logger=grafana.update.checker t=2025-04-28T00:29:20.407301108Z level=info msg="Update check succeeded" duration=22.505335ms
+logger=plugins.update.checker t=2025-04-28T00:29:20.441776751Z level=info msg="Update check succeeded" duration=39.3224ms
+logger=cleanup t=2025-04-28T00:39:20.29062467Z level=info msg="Completed cleanup jobs" duration=1.458126ms
+logger=grafana.update.checker t=2025-04-28T00:39:20.399372791Z level=info msg="Update check succeeded" duration=15.120885ms
+logger=plugins.update.checker t=2025-04-28T00:39:20.435465841Z level=info msg="Update check succeeded" duration=34.905874ms
+logger=infra.usagestats t=2025-04-28T00:40:38.273551121Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T00:49:20.291541586Z level=info msg="Completed cleanup jobs" duration=5.184037ms
+logger=grafana.update.checker t=2025-04-28T00:49:20.404898632Z level=info msg="Update check succeeded" duration=20.320426ms
+logger=plugins.update.checker t=2025-04-28T00:49:20.436922623Z level=info msg="Update check succeeded" duration=36.136973ms
+logger=cleanup t=2025-04-28T00:59:20.291282758Z level=info msg="Completed cleanup jobs" duration=5.057339ms
+logger=grafana.update.checker t=2025-04-28T00:59:20.401671977Z level=info msg="Update check succeeded" duration=16.912753ms
+logger=plugins.update.checker t=2025-04-28T00:59:20.435001683Z level=info msg="Update check succeeded" duration=34.187522ms
+logger=cleanup t=2025-04-28T01:09:20.29260355Z level=info msg="Completed cleanup jobs" duration=6.166912ms
+logger=grafana.update.checker t=2025-04-28T01:09:20.401244578Z level=info msg="Update check succeeded" duration=16.417321ms
+logger=plugins.update.checker t=2025-04-28T01:09:20.4322412Z level=info msg="Update check succeeded" duration=31.88701ms
+logger=infra.usagestats t=2025-04-28T01:10:38.276221386Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T01:19:20.296922076Z level=info msg="Completed cleanup jobs" duration=10.617141ms
+logger=grafana.update.checker t=2025-04-28T01:19:20.401709935Z level=info msg="Update check succeeded" duration=17.384084ms
+logger=plugins.update.checker t=2025-04-28T01:19:20.438822354Z level=info msg="Update check succeeded" duration=38.067142ms
+logger=cleanup t=2025-04-28T01:29:20.29799864Z level=info msg="Completed cleanup jobs" duration=12.289772ms
+logger=grafana.update.checker t=2025-04-28T01:29:20.401575416Z level=info msg="Update check succeeded" duration=16.822888ms
+logger=plugins.update.checker t=2025-04-28T01:29:20.442403658Z level=info msg="Update check succeeded" duration=41.911701ms
+logger=cleanup t=2025-04-28T01:39:20.297604093Z level=info msg="Completed cleanup jobs" duration=8.786773ms
+logger=grafana.update.checker t=2025-04-28T01:39:20.404292097Z level=info msg="Update check succeeded" duration=19.499118ms
+logger=plugins.update.checker t=2025-04-28T01:39:20.440912249Z level=info msg="Update check succeeded" duration=38.983624ms
+logger=infra.usagestats t=2025-04-28T01:40:38.277244238Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T01:41:32.151908881Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.137 time_ms=1 duration=1.397778ms size=29 referer= handler=/
+logger=http.server t=2025-04-28T01:41:32.428169792Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-28T01:49:20.296539953Z level=info msg="Completed cleanup jobs" duration=10.834061ms
+logger=plugins.update.checker t=2025-04-28T01:49:20.433215966Z level=info msg="Update check succeeded" duration=32.733173ms
+logger=grafana.update.checker t=2025-04-28T01:49:20.671456857Z level=info msg="Update check succeeded" duration=286.980302ms
+logger=cleanup t=2025-04-28T01:59:20.296931509Z level=info msg="Completed cleanup jobs" duration=10.876261ms
+logger=grafana.update.checker t=2025-04-28T01:59:20.4113146Z level=info msg="Update check succeeded" duration=27.136698ms
+logger=plugins.update.checker t=2025-04-28T01:59:20.443664452Z level=info msg="Update check succeeded" duration=38.30189ms
+logger=cleanup t=2025-04-28T02:09:20.291945706Z level=info msg="Completed cleanup jobs" duration=6.200984ms
+logger=grafana.update.checker t=2025-04-28T02:09:20.413838373Z level=info msg="Update check succeeded" duration=29.864623ms
+logger=plugins.update.checker t=2025-04-28T02:09:20.447982994Z level=info msg="Update check succeeded" duration=40.897716ms
+logger=infra.usagestats t=2025-04-28T02:10:38.274852785Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T02:19:20.304724981Z level=info msg="Completed cleanup jobs" duration=18.385262ms
+logger=grafana.update.checker t=2025-04-28T02:19:20.408948001Z level=info msg="Update check succeeded" duration=25.053826ms
+logger=plugins.update.checker t=2025-04-28T02:19:20.441880045Z level=info msg="Update check succeeded" duration=36.210079ms
+logger=cleanup t=2025-04-28T02:29:20.297630778Z level=info msg="Completed cleanup jobs" duration=11.579565ms
+logger=grafana.update.checker t=2025-04-28T02:29:20.404638212Z level=info msg="Update check succeeded" duration=19.727797ms
+logger=plugins.update.checker t=2025-04-28T02:29:20.43410053Z level=info msg="Update check succeeded" duration=33.692333ms
+logger=cleanup t=2025-04-28T02:39:20.290527913Z level=info msg="Completed cleanup jobs" duration=1.44126ms
+logger=grafana.update.checker t=2025-04-28T02:39:20.403095722Z level=info msg="Update check succeeded" duration=18.469251ms
+logger=plugins.update.checker t=2025-04-28T02:39:20.436170914Z level=info msg="Update check succeeded" duration=35.271091ms
+logger=infra.usagestats t=2025-04-28T02:40:38.274390694Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T02:43:37.590025848Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=198.235.24.70 time_ms=0 duration=233.314µs size=29 referer= handler=/
+logger=cleanup t=2025-04-28T02:49:20.299570026Z level=info msg="Completed cleanup jobs" duration=14.243449ms
+logger=grafana.update.checker t=2025-04-28T02:49:20.410437498Z level=info msg="Update check succeeded" duration=25.481786ms
+logger=plugins.update.checker t=2025-04-28T02:49:20.439993188Z level=info msg="Update check succeeded" duration=35.27668ms
+logger=cleanup t=2025-04-28T02:59:20.296077763Z level=info msg="Completed cleanup jobs" duration=10.486018ms
+logger=grafana.update.checker t=2025-04-28T02:59:20.402968913Z level=info msg="Update check succeeded" duration=18.311817ms
+logger=plugins.update.checker t=2025-04-28T02:59:20.43752649Z level=info msg="Update check succeeded" duration=36.526715ms
+logger=cleanup t=2025-04-28T03:09:20.292168754Z level=info msg="Completed cleanup jobs" duration=6.322886ms
+logger=grafana.update.checker t=2025-04-28T03:09:20.404939235Z level=info msg="Update check succeeded" duration=20.549409ms
+logger=plugins.update.checker t=2025-04-28T03:09:20.43703062Z level=info msg="Update check succeeded" duration=35.602708ms
+logger=infra.usagestats t=2025-04-28T03:10:38.273966422Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T03:19:20.301592035Z level=info msg="Completed cleanup jobs" duration=15.448146ms
+logger=grafana.update.checker t=2025-04-28T03:19:20.438420175Z level=info msg="Update check succeeded" duration=54.042348ms
+logger=plugins.update.checker t=2025-04-28T03:19:20.440400249Z level=info msg="Update check succeeded" duration=39.758573ms
+logger=cleanup t=2025-04-28T03:29:20.297978881Z level=info msg="Completed cleanup jobs" duration=12.109017ms
+logger=grafana.update.checker t=2025-04-28T03:29:20.420620218Z level=info msg="Update check succeeded" duration=36.160383ms
+logger=plugins.update.checker t=2025-04-28T03:29:20.451539107Z level=info msg="Update check succeeded" duration=39.354276ms
+logger=cleanup t=2025-04-28T03:39:20.323175746Z level=info msg="Completed cleanup jobs" duration=36.633995ms
+logger=grafana.update.checker t=2025-04-28T03:39:20.41452676Z level=info msg="Update check succeeded" duration=30.14089ms
+logger=plugins.update.checker t=2025-04-28T03:39:20.445378688Z level=info msg="Update check succeeded" duration=35.049925ms
+logger=infra.usagestats t=2025-04-28T03:40:38.273858932Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T03:49:20.295552487Z level=info msg="Completed cleanup jobs" duration=10.22441ms
+logger=grafana.update.checker t=2025-04-28T03:49:20.403600797Z level=info msg="Update check succeeded" duration=19.429057ms
+logger=plugins.update.checker t=2025-04-28T03:49:20.432913832Z level=info msg="Update check succeeded" duration=32.02776ms
+logger=cleanup t=2025-04-28T03:59:20.297477775Z level=info msg="Completed cleanup jobs" duration=11.965278ms
+logger=grafana.update.checker t=2025-04-28T03:59:20.401331276Z level=info msg="Update check succeeded" duration=16.788493ms
+logger=plugins.update.checker t=2025-04-28T03:59:20.434301565Z level=info msg="Update check succeeded" duration=33.903761ms
+logger=cleanup t=2025-04-28T04:09:20.296967318Z level=info msg="Completed cleanup jobs" duration=11.300783ms
+logger=grafana.update.checker t=2025-04-28T04:09:20.400311312Z level=info msg="Update check succeeded" duration=16.15589ms
+logger=plugins.update.checker t=2025-04-28T04:09:20.434266766Z level=info msg="Update check succeeded" duration=33.54179ms
+logger=infra.usagestats t=2025-04-28T04:10:38.276412148Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T04:19:20.292443498Z level=info msg="Completed cleanup jobs" duration=6.659554ms
+logger=grafana.update.checker t=2025-04-28T04:19:20.404610837Z level=info msg="Update check succeeded" duration=20.72855ms
+logger=plugins.update.checker t=2025-04-28T04:19:20.436988518Z level=info msg="Update check succeeded" duration=35.51525ms
+logger=cleanup t=2025-04-28T04:29:20.297077731Z level=info msg="Completed cleanup jobs" duration=10.987538ms
+logger=grafana.update.checker t=2025-04-28T04:29:20.399836391Z level=info msg="Update check succeeded" duration=15.852272ms
+logger=plugins.update.checker t=2025-04-28T04:29:20.440095677Z level=info msg="Update check succeeded" duration=38.991284ms
+logger=cleanup t=2025-04-28T04:39:20.296827846Z level=info msg="Completed cleanup jobs" duration=10.139183ms
+logger=grafana.update.checker t=2025-04-28T04:39:20.401269474Z level=info msg="Update check succeeded" duration=16.628555ms
+logger=plugins.update.checker t=2025-04-28T04:39:20.458192624Z level=info msg="Update check succeeded" duration=57.845169ms
+logger=infra.usagestats t=2025-04-28T04:40:38.276225024Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T04:49:20.29739213Z level=info msg="Completed cleanup jobs" duration=11.307773ms
+logger=grafana.update.checker t=2025-04-28T04:49:20.402442222Z level=info msg="Update check succeeded" duration=17.915669ms
+logger=plugins.update.checker t=2025-04-28T04:49:20.433542551Z level=info msg="Update check succeeded" duration=32.708942ms
+logger=cleanup t=2025-04-28T04:59:20.291801224Z level=info msg="Completed cleanup jobs" duration=5.450168ms
+logger=grafana.update.checker t=2025-04-28T04:59:20.40371071Z level=info msg="Update check succeeded" duration=19.055141ms
+logger=plugins.update.checker t=2025-04-28T04:59:20.43726345Z level=info msg="Update check succeeded" duration=35.901198ms
+logger=cleanup t=2025-04-28T05:09:20.291392839Z level=info msg="Completed cleanup jobs" duration=5.641214ms
+logger=grafana.update.checker t=2025-04-28T05:09:20.401220323Z level=info msg="Update check succeeded" duration=16.324894ms
+logger=plugins.update.checker t=2025-04-28T05:09:20.435241634Z level=info msg="Update check succeeded" duration=34.72619ms
+logger=infra.usagestats t=2025-04-28T05:10:38.275485179Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T05:19:20.301849161Z level=info msg="Completed cleanup jobs" duration=15.706151ms
+logger=grafana.update.checker t=2025-04-28T05:19:20.39906157Z level=info msg="Update check succeeded" duration=15.084511ms
+logger=plugins.update.checker t=2025-04-28T05:19:20.439550348Z level=info msg="Update check succeeded" duration=38.433746ms
+logger=cleanup t=2025-04-28T05:29:20.300797306Z level=info msg="Completed cleanup jobs" duration=14.804394ms
+logger=grafana.update.checker t=2025-04-28T05:29:20.416074501Z level=info msg="Update check succeeded" duration=32.163996ms
+logger=plugins.update.checker t=2025-04-28T05:29:20.450236549Z level=info msg="Update check succeeded" duration=38.050463ms
+logger=cleanup t=2025-04-28T05:39:20.317438523Z level=info msg="Completed cleanup jobs" duration=31.573068ms
+logger=grafana.update.checker t=2025-04-28T05:39:20.406749954Z level=info msg="Update check succeeded" duration=22.832266ms
+logger=plugins.update.checker t=2025-04-28T05:39:20.435842209Z level=info msg="Update check succeeded" duration=32.516552ms
+logger=infra.usagestats t=2025-04-28T05:40:38.274472589Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T05:49:20.296820574Z level=info msg="Completed cleanup jobs" duration=11.2109ms
+logger=grafana.update.checker t=2025-04-28T05:49:20.40769069Z level=info msg="Update check succeeded" duration=23.452424ms
+logger=plugins.update.checker t=2025-04-28T05:49:20.442270631Z level=info msg="Update check succeeded" duration=38.109422ms
+logger=cleanup t=2025-04-28T05:59:20.291667037Z level=info msg="Completed cleanup jobs" duration=5.357088ms
+logger=grafana.update.checker t=2025-04-28T05:59:20.399991887Z level=info msg="Update check succeeded" duration=15.099126ms
+logger=plugins.update.checker t=2025-04-28T05:59:20.433497433Z level=info msg="Update check succeeded" duration=32.5252ms
+logger=cleanup t=2025-04-28T06:09:20.292560261Z level=info msg="Completed cleanup jobs" duration=6.305888ms
+logger=grafana.update.checker t=2025-04-28T06:09:20.401052293Z level=info msg="Update check succeeded" duration=16.212351ms
+logger=plugins.update.checker t=2025-04-28T06:09:20.438911906Z level=info msg="Update check succeeded" duration=36.952935ms
+logger=infra.usagestats t=2025-04-28T06:10:38.277021372Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T06:19:20.29651537Z level=info msg="Completed cleanup jobs" duration=11.189135ms
+logger=grafana.update.checker t=2025-04-28T06:19:20.40223855Z level=info msg="Update check succeeded" duration=17.839185ms
+logger=plugins.update.checker t=2025-04-28T06:19:20.438924889Z level=info msg="Update check succeeded" duration=38.021381ms
+logger=cleanup t=2025-04-28T06:29:20.301264453Z level=info msg="Completed cleanup jobs" duration=14.94421ms
+logger=grafana.update.checker t=2025-04-28T06:29:20.408380248Z level=info msg="Update check succeeded" duration=23.972873ms
+logger=plugins.update.checker t=2025-04-28T06:29:20.446045673Z level=info msg="Update check succeeded" duration=40.330198ms
+logger=cleanup t=2025-04-28T06:39:20.290695003Z level=info msg="Completed cleanup jobs" duration=1.737994ms
+logger=grafana.update.checker t=2025-04-28T06:39:20.406471084Z level=info msg="Update check succeeded" duration=22.547916ms
+logger=plugins.update.checker t=2025-04-28T06:39:20.433854827Z level=info msg="Update check succeeded" duration=33.151282ms
+logger=infra.usagestats t=2025-04-28T06:40:38.276192079Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T06:49:20.294946685Z level=info msg="Completed cleanup jobs" duration=8.981607ms
+logger=grafana.update.checker t=2025-04-28T06:49:20.399171981Z level=info msg="Update check succeeded" duration=14.562832ms
+logger=plugins.update.checker t=2025-04-28T06:49:20.450201439Z level=info msg="Update check succeeded" duration=49.006277ms
+logger=cleanup t=2025-04-28T06:59:20.291431377Z level=info msg="Completed cleanup jobs" duration=5.181379ms
+logger=grafana.update.checker t=2025-04-28T06:59:20.399262403Z level=info msg="Update check succeeded" duration=14.993074ms
+logger=plugins.update.checker t=2025-04-28T06:59:20.439661987Z level=info msg="Update check succeeded" duration=39.474951ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T07:04:33.156928828Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=163.61.110.227 time_ms=1 duration=1.512848ms size=0 referer= handler=notfound
+logger=cleanup t=2025-04-28T07:09:20.323146787Z level=info msg="Completed cleanup jobs" duration=36.814731ms
+logger=grafana.update.checker t=2025-04-28T07:09:20.400738146Z level=info msg="Update check succeeded" duration=16.120852ms
+logger=plugins.update.checker t=2025-04-28T07:09:20.468887203Z level=info msg="Update check succeeded" duration=67.515096ms
+logger=infra.usagestats t=2025-04-28T07:10:38.276578786Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T07:19:20.296384919Z level=info msg="Completed cleanup jobs" duration=10.443163ms
+logger=grafana.update.checker t=2025-04-28T07:19:20.400031036Z level=info msg="Update check succeeded" duration=15.426291ms
+logger=plugins.update.checker t=2025-04-28T07:19:20.431302914Z level=info msg="Update check succeeded" duration=30.499018ms
+logger=cleanup t=2025-04-28T07:29:20.30094637Z level=info msg="Completed cleanup jobs" duration=14.781864ms
+logger=grafana.update.checker t=2025-04-28T07:29:20.404469561Z level=info msg="Update check succeeded" duration=19.55908ms
+logger=plugins.update.checker t=2025-04-28T07:29:20.458260819Z level=info msg="Update check succeeded" duration=56.31246ms
+logger=cleanup t=2025-04-28T07:39:20.309041214Z level=info msg="Completed cleanup jobs" duration=21.896841ms
+logger=grafana.update.checker t=2025-04-28T07:39:20.406910444Z level=info msg="Update check succeeded" duration=22.155527ms
+logger=plugins.update.checker t=2025-04-28T07:39:20.431907202Z level=info msg="Update check succeeded" duration=31.677226ms
+logger=infra.usagestats t=2025-04-28T07:40:38.27682232Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T07:49:20.295873945Z level=info msg="Completed cleanup jobs" duration=10.10943ms
+logger=grafana.update.checker t=2025-04-28T07:49:20.410363064Z level=info msg="Update check succeeded" duration=26.023138ms
+logger=plugins.update.checker t=2025-04-28T07:49:20.446182708Z level=info msg="Update check succeeded" duration=37.223683ms
+logger=cleanup t=2025-04-28T07:59:20.300705687Z level=info msg="Completed cleanup jobs" duration=14.767249ms
+logger=grafana.update.checker t=2025-04-28T07:59:20.412602116Z level=info msg="Update check succeeded" duration=28.698014ms
+logger=plugins.update.checker t=2025-04-28T07:59:20.448230454Z level=info msg="Update check succeeded" duration=37.758449ms
+logger=cleanup t=2025-04-28T08:09:20.291443439Z level=info msg="Completed cleanup jobs" duration=5.876621ms
+logger=grafana.update.checker t=2025-04-28T08:09:20.398998363Z level=info msg="Update check succeeded" duration=14.039095ms
+logger=plugins.update.checker t=2025-04-28T08:09:20.436367204Z level=info msg="Update check succeeded" duration=35.308875ms
+logger=infra.usagestats t=2025-04-28T08:10:38.274592102Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T08:19:20.292317628Z level=info msg="Completed cleanup jobs" duration=6.147109ms
+logger=grafana.update.checker t=2025-04-28T08:19:20.398349857Z level=info msg="Update check succeeded" duration=14.303294ms
+logger=plugins.update.checker t=2025-04-28T08:19:20.435875418Z level=info msg="Update check succeeded" duration=35.45601ms
+logger=cleanup t=2025-04-28T08:29:20.292954017Z level=info msg="Completed cleanup jobs" duration=6.563014ms
+logger=grafana.update.checker t=2025-04-28T08:29:20.406418486Z level=info msg="Update check succeeded" duration=22.460699ms
+logger=plugins.update.checker t=2025-04-28T08:29:20.43628443Z level=info msg="Update check succeeded" duration=34.420468ms
+logger=cleanup t=2025-04-28T08:39:20.296935495Z level=info msg="Completed cleanup jobs" duration=10.954647ms
+logger=grafana.update.checker t=2025-04-28T08:39:20.400479796Z level=info msg="Update check succeeded" duration=15.856195ms
+logger=plugins.update.checker t=2025-04-28T08:39:20.575543639Z level=info msg="Update check succeeded" duration=174.569051ms
+logger=infra.usagestats t=2025-04-28T08:40:38.27447117Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T08:49:20.292670371Z level=info msg="Completed cleanup jobs" duration=6.521704ms
+logger=grafana.update.checker t=2025-04-28T08:49:20.401405721Z level=info msg="Update check succeeded" duration=17.147657ms
+logger=plugins.update.checker t=2025-04-28T08:49:20.437593136Z level=info msg="Update check succeeded" duration=37.042084ms
+logger=cleanup t=2025-04-28T08:59:20.296672886Z level=info msg="Completed cleanup jobs" duration=11.126948ms
+logger=grafana.update.checker t=2025-04-28T08:59:20.402495861Z level=info msg="Update check succeeded" duration=18.437661ms
+logger=plugins.update.checker t=2025-04-28T08:59:20.430688748Z level=info msg="Update check succeeded" duration=30.077247ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T09:04:41.147945416Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=3.149.6.124 time_ms=1 duration=1.378181ms size=29 referer= handler=/
+logger=http.server t=2025-04-28T09:04:41.180758904Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T09:06:54.507977032Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=3.149.6.124 time_ms=0 duration=119.669µs size=29 referer= handler=/
+logger=cleanup t=2025-04-28T09:09:20.291033989Z level=info msg="Completed cleanup jobs" duration=4.930585ms
+logger=grafana.update.checker t=2025-04-28T09:09:20.399283825Z level=info msg="Update check succeeded" duration=14.981041ms
+logger=plugins.update.checker t=2025-04-28T09:09:20.434384758Z level=info msg="Update check succeeded" duration=34.157664ms
+logger=infra.usagestats t=2025-04-28T09:10:38.274481135Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T09:19:20.29154868Z level=info msg="Completed cleanup jobs" duration=5.210698ms
+logger=grafana.update.checker t=2025-04-28T09:19:20.400017945Z level=info msg="Update check succeeded" duration=15.339225ms
+logger=plugins.update.checker t=2025-04-28T09:19:20.431643943Z level=info msg="Update check succeeded" duration=30.385385ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T09:19:45.1504977Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=34.22.213.78 time_ms=0 duration=112.959µs size=29 referer= handler=/
+logger=cleanup t=2025-04-28T09:29:20.291443925Z level=info msg="Completed cleanup jobs" duration=5.112047ms
+logger=grafana.update.checker t=2025-04-28T09:29:20.400530126Z level=info msg="Update check succeeded" duration=16.264117ms
+logger=plugins.update.checker t=2025-04-28T09:29:20.438517519Z level=info msg="Update check succeeded" duration=38.345332ms
+logger=cleanup t=2025-04-28T09:39:20.291429234Z level=info msg="Completed cleanup jobs" duration=2.100996ms
+logger=grafana.update.checker t=2025-04-28T09:39:20.400899719Z level=info msg="Update check succeeded" duration=15.930004ms
+logger=plugins.update.checker t=2025-04-28T09:39:20.433746509Z level=info msg="Update check succeeded" duration=31.984224ms
+logger=infra.usagestats t=2025-04-28T09:40:38.273523523Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T09:49:20.299705473Z level=info msg="Completed cleanup jobs" duration=13.677528ms
+logger=grafana.update.checker t=2025-04-28T09:49:20.403485129Z level=info msg="Update check succeeded" duration=18.36968ms
+logger=plugins.update.checker t=2025-04-28T09:49:20.44839769Z level=info msg="Update check succeeded" duration=47.121613ms
+logger=cleanup t=2025-04-28T09:59:20.296860713Z level=info msg="Completed cleanup jobs" duration=10.566573ms
+logger=grafana.update.checker t=2025-04-28T09:59:20.411613754Z level=info msg="Update check succeeded" duration=26.931197ms
+logger=plugins.update.checker t=2025-04-28T09:59:20.45208966Z level=info msg="Update check succeeded" duration=43.125084ms
+logger=cleanup t=2025-04-28T10:09:20.302446864Z level=info msg="Completed cleanup jobs" duration=16.897744ms
+logger=grafana.update.checker t=2025-04-28T10:09:20.412067528Z level=info msg="Update check succeeded" duration=27.504657ms
+logger=plugins.update.checker t=2025-04-28T10:09:20.448267568Z level=info msg="Update check succeeded" duration=39.553397ms
+logger=infra.usagestats t=2025-04-28T10:10:38.275973232Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T10:19:20.291973122Z level=info msg="Completed cleanup jobs" duration=5.457017ms
+logger=grafana.update.checker t=2025-04-28T10:19:20.398836929Z level=info msg="Update check succeeded" duration=14.654341ms
+logger=plugins.update.checker t=2025-04-28T10:19:20.435105852Z level=info msg="Update check succeeded" duration=34.684572ms
+logger=cleanup t=2025-04-28T10:29:20.296346292Z level=info msg="Completed cleanup jobs" duration=10.346513ms
+logger=grafana.update.checker t=2025-04-28T10:29:20.399389844Z level=info msg="Update check succeeded" duration=14.826898ms
+logger=plugins.update.checker t=2025-04-28T10:29:20.534704281Z level=info msg="Update check succeeded" duration=134.363172ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T10:30:15.187616709Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=80.82.70.133 time_ms=1 duration=1.047419ms size=29 referer= handler=/
+logger=context userId=0 orgId=0 uname= t=2025-04-28T10:30:39.138163596Z level=info msg= error="[auth.unauthorized] cannot authenticate request" remote_addr=94.102.49.155 traceID=
+logger=context userId=0 orgId=0 uname= t=2025-04-28T10:30:39.138313868Z level=info msg="Request Completed" method=GET path=/api/v1/users/search status=401 remote_addr=94.102.49.155 time_ms=0 duration=418.544µs size=102 referer= handler=notfound
+logger=cleanup t=2025-04-28T10:39:20.300931595Z level=info msg="Completed cleanup jobs" duration=14.329478ms
+logger=grafana.update.checker t=2025-04-28T10:39:20.401731415Z level=info msg="Update check succeeded" duration=17.58753ms
+logger=plugins.update.checker t=2025-04-28T10:39:20.626445362Z level=info msg="Update check succeeded" duration=225.886494ms
+logger=infra.usagestats t=2025-04-28T10:40:38.27472379Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T10:49:20.296319119Z level=info msg="Completed cleanup jobs" duration=10.384411ms
+logger=grafana.update.checker t=2025-04-28T10:49:20.407075603Z level=info msg="Update check succeeded" duration=22.108319ms
+logger=plugins.update.checker t=2025-04-28T10:49:20.444190187Z level=info msg="Update check succeeded" duration=40.361368ms
+logger=cleanup t=2025-04-28T10:59:20.296759928Z level=info msg="Completed cleanup jobs" duration=10.472695ms
+logger=grafana.update.checker t=2025-04-28T10:59:20.398361355Z level=info msg="Update check succeeded" duration=14.190482ms
+logger=plugins.update.checker t=2025-04-28T10:59:20.433431617Z level=info msg="Update check succeeded" duration=32.786705ms
+logger=cleanup t=2025-04-28T11:09:20.296060929Z level=info msg="Completed cleanup jobs" duration=10.698091ms
+logger=grafana.update.checker t=2025-04-28T11:09:20.401370601Z level=info msg="Update check succeeded" duration=17.390112ms
+logger=plugins.update.checker t=2025-04-28T11:09:20.479961331Z level=info msg="Update check succeeded" duration=79.480947ms
+logger=infra.usagestats t=2025-04-28T11:10:38.276141603Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T11:19:20.297590384Z level=info msg="Completed cleanup jobs" duration=11.964126ms
+logger=grafana.update.checker t=2025-04-28T11:19:20.405253723Z level=info msg="Update check succeeded" duration=20.552634ms
+logger=plugins.update.checker t=2025-04-28T11:19:20.434828216Z level=info msg="Update check succeeded" duration=32.900362ms
+logger=cleanup t=2025-04-28T11:29:20.297971383Z level=info msg="Completed cleanup jobs" duration=12.275731ms
+logger=grafana.update.checker t=2025-04-28T11:29:20.401750245Z level=info msg="Update check succeeded" duration=17.279228ms
+logger=plugins.update.checker t=2025-04-28T11:29:20.556439606Z level=info msg="Update check succeeded" duration=155.58213ms
+logger=cleanup t=2025-04-28T11:39:20.291492735Z level=info msg="Completed cleanup jobs" duration=1.552327ms
+logger=grafana.update.checker t=2025-04-28T11:39:20.399486312Z level=info msg="Update check succeeded" duration=15.231627ms
+logger=plugins.update.checker t=2025-04-28T11:39:20.43522753Z level=info msg="Update check succeeded" duration=34.171291ms
+logger=infra.usagestats t=2025-04-28T11:40:38.274074325Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T11:49:20.294549624Z level=info msg="Completed cleanup jobs" duration=8.495251ms
+logger=grafana.update.checker t=2025-04-28T11:49:20.404415666Z level=info msg="Update check succeeded" duration=19.894817ms
+logger=plugins.update.checker t=2025-04-28T11:49:20.434733214Z level=info msg="Update check succeeded" duration=34.349192ms
+logger=cleanup t=2025-04-28T11:59:20.296960114Z level=info msg="Completed cleanup jobs" duration=10.988643ms
+logger=grafana.update.checker t=2025-04-28T11:59:20.413002032Z level=info msg="Update check succeeded" duration=27.828407ms
+logger=plugins.update.checker t=2025-04-28T11:59:20.447764943Z level=info msg="Update check succeeded" duration=36.715134ms
+logger=cleanup t=2025-04-28T12:09:20.305338473Z level=info msg="Completed cleanup jobs" duration=19.041166ms
+logger=grafana.update.checker t=2025-04-28T12:09:20.413204237Z level=info msg="Update check succeeded" duration=28.10763ms
+logger=plugins.update.checker t=2025-04-28T12:09:20.457372181Z level=info msg="Update check succeeded" duration=49.383598ms
+logger=infra.usagestats t=2025-04-28T12:10:38.274767276Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T12:19:20.296296749Z level=info msg="Completed cleanup jobs" duration=10.467441ms
+logger=grafana.update.checker t=2025-04-28T12:19:20.399024522Z level=info msg="Update check succeeded" duration=14.53224ms
+logger=plugins.update.checker t=2025-04-28T12:19:20.435470622Z level=info msg="Update check succeeded" duration=34.68865ms
+logger=cleanup t=2025-04-28T12:29:20.297236029Z level=info msg="Completed cleanup jobs" duration=10.83984ms
+logger=grafana.update.checker t=2025-04-28T12:29:20.401162153Z level=info msg="Update check succeeded" duration=16.907017ms
+logger=plugins.update.checker t=2025-04-28T12:29:20.433724355Z level=info msg="Update check succeeded" duration=32.131723ms
+logger=cleanup t=2025-04-28T12:39:20.291931457Z level=info msg="Completed cleanup jobs" duration=1.603565ms
+logger=grafana.update.checker t=2025-04-28T12:39:20.399281527Z level=info msg="Update check succeeded" duration=14.319829ms
+logger=plugins.update.checker t=2025-04-28T12:39:20.43810593Z level=info msg="Update check succeeded" duration=37.098135ms
+logger=infra.usagestats t=2025-04-28T12:40:38.274616098Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T12:49:20.293609847Z level=info msg="Completed cleanup jobs" duration=7.268763ms
+logger=grafana.update.checker t=2025-04-28T12:49:20.401306795Z level=info msg="Update check succeeded" duration=16.497764ms
+logger=plugins.update.checker t=2025-04-28T12:49:20.438360519Z level=info msg="Update check succeeded" duration=38.18491ms
+logger=cleanup t=2025-04-28T12:59:20.297230353Z level=info msg="Completed cleanup jobs" duration=11.687984ms
+logger=grafana.update.checker t=2025-04-28T12:59:20.401487979Z level=info msg="Update check succeeded" duration=17.588554ms
+logger=plugins.update.checker t=2025-04-28T12:59:20.434599522Z level=info msg="Update check succeeded" duration=34.208746ms
+logger=cleanup t=2025-04-28T13:09:20.297263524Z level=info msg="Completed cleanup jobs" duration=11.552677ms
+logger=grafana.update.checker t=2025-04-28T13:09:20.40605827Z level=info msg="Update check succeeded" duration=21.170509ms
+logger=plugins.update.checker t=2025-04-28T13:09:20.435619832Z level=info msg="Update check succeeded" duration=35.144932ms
+logger=infra.usagestats t=2025-04-28T13:10:38.277419663Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T13:19:20.296923127Z level=info msg="Completed cleanup jobs" duration=10.746174ms
+logger=grafana.update.checker t=2025-04-28T13:19:20.399176262Z level=info msg="Update check succeeded" duration=14.790112ms
+logger=plugins.update.checker t=2025-04-28T13:19:20.449719338Z level=info msg="Update check succeeded" duration=49.361643ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T13:28:54.63246106Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=64.62.156.224 time_ms=1 duration=1.200316ms size=29 referer= handler=/
+logger=context userId=0 orgId=0 uname= t=2025-04-28T13:29:16.260410036Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=64.62.156.226 time_ms=0 duration=114.901µs size=29 referer= handler=/
+logger=http.server t=2025-04-28T13:29:16.320454779Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-28T13:29:20.29662111Z level=info msg="Completed cleanup jobs" duration=10.479092ms
+logger=grafana.update.checker t=2025-04-28T13:29:20.401147105Z level=info msg="Update check succeeded" duration=17.121902ms
+logger=plugins.update.checker t=2025-04-28T13:29:20.435415764Z level=info msg="Update check succeeded" duration=35.236707ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T13:29:42.636178523Z level=info msg="Request Completed" method=GET path=/favicon.ico status=302 remote_addr=64.62.156.226 time_ms=0 duration=341.837µs size=29 referer= handler=public-assets
+logger=cleanup t=2025-04-28T13:39:20.291635433Z level=info msg="Completed cleanup jobs" duration=1.355589ms
+logger=grafana.update.checker t=2025-04-28T13:39:20.402213191Z level=info msg="Update check succeeded" duration=18.234023ms
+logger=plugins.update.checker t=2025-04-28T13:39:20.555262131Z level=info msg="Update check succeeded" duration=154.385273ms
+logger=infra.usagestats t=2025-04-28T13:40:38.274534779Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T13:49:20.299402996Z level=info msg="Completed cleanup jobs" duration=13.901219ms
+logger=grafana.update.checker t=2025-04-28T13:49:20.415564881Z level=info msg="Update check succeeded" duration=30.917284ms
+logger=plugins.update.checker t=2025-04-28T13:49:20.459385954Z level=info msg="Update check succeeded" duration=49.060547ms
+logger=cleanup t=2025-04-28T13:59:20.303374867Z level=info msg="Completed cleanup jobs" duration=17.623938ms
+logger=grafana.update.checker t=2025-04-28T13:59:20.41058056Z level=info msg="Update check succeeded" duration=26.412314ms
+logger=plugins.update.checker t=2025-04-28T13:59:20.440277166Z level=info msg="Update check succeeded" duration=35.112529ms
+logger=cleanup t=2025-04-28T14:09:20.302035795Z level=info msg="Completed cleanup jobs" duration=16.050448ms
+logger=grafana.update.checker t=2025-04-28T14:09:20.412264852Z level=info msg="Update check succeeded" duration=28.09865ms
+logger=plugins.update.checker t=2025-04-28T14:09:20.444313126Z level=info msg="Update check succeeded" duration=39.14536ms
+logger=infra.usagestats t=2025-04-28T14:10:38.278490544Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T14:19:20.293587709Z level=info msg="Completed cleanup jobs" duration=7.680417ms
+logger=grafana.update.checker t=2025-04-28T14:19:20.402046639Z level=info msg="Update check succeeded" duration=17.418127ms
+logger=plugins.update.checker t=2025-04-28T14:19:20.433029693Z level=info msg="Update check succeeded" duration=32.82342ms
+logger=cleanup t=2025-04-28T14:29:20.297649638Z level=info msg="Completed cleanup jobs" duration=11.559833ms
+logger=grafana.update.checker t=2025-04-28T14:29:20.399569269Z level=info msg="Update check succeeded" duration=14.757839ms
+logger=plugins.update.checker t=2025-04-28T14:29:20.43632253Z level=info msg="Update check succeeded" duration=35.717675ms
+logger=cleanup t=2025-04-28T14:39:20.290174846Z level=info msg="Completed cleanup jobs" duration=1.754751ms
+logger=grafana.update.checker t=2025-04-28T14:39:20.399604066Z level=info msg="Update check succeeded" duration=14.34788ms
+logger=plugins.update.checker t=2025-04-28T14:39:20.43341486Z level=info msg="Update check succeeded" duration=33.173801ms
+logger=infra.usagestats t=2025-04-28T14:40:38.274564242Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T14:49:20.296617429Z level=info msg="Completed cleanup jobs" duration=11.176798ms
+logger=grafana.update.checker t=2025-04-28T14:49:20.402407077Z level=info msg="Update check succeeded" duration=17.867589ms
+logger=plugins.update.checker t=2025-04-28T14:49:20.474849522Z level=info msg="Update check succeeded" duration=73.821341ms
+logger=cleanup t=2025-04-28T14:59:20.297100489Z level=info msg="Completed cleanup jobs" duration=11.008432ms
+logger=grafana.update.checker t=2025-04-28T14:59:20.401547399Z level=info msg="Update check succeeded" duration=17.05071ms
+logger=plugins.update.checker t=2025-04-28T14:59:20.444400923Z level=info msg="Update check succeeded" duration=43.739937ms
+logger=cleanup t=2025-04-28T15:09:20.291347254Z level=info msg="Completed cleanup jobs" duration=5.181122ms
+logger=grafana.update.checker t=2025-04-28T15:09:20.399537956Z level=info msg="Update check succeeded" duration=15.365853ms
+logger=plugins.update.checker t=2025-04-28T15:09:20.434852513Z level=info msg="Update check succeeded" duration=33.784319ms
+logger=infra.usagestats t=2025-04-28T15:10:38.277066749Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T15:19:20.293667511Z level=info msg="Completed cleanup jobs" duration=7.303071ms
+logger=grafana.update.checker t=2025-04-28T15:19:20.399955058Z level=info msg="Update check succeeded" duration=15.247533ms
+logger=plugins.update.checker t=2025-04-28T15:19:20.431477958Z level=info msg="Update check succeeded" duration=31.076272ms
+logger=cleanup t=2025-04-28T15:29:20.296847797Z level=info msg="Completed cleanup jobs" duration=11.009519ms
+logger=grafana.update.checker t=2025-04-28T15:29:20.404302945Z level=info msg="Update check succeeded" duration=19.778891ms
+logger=plugins.update.checker t=2025-04-28T15:29:20.438538752Z level=info msg="Update check succeeded" duration=37.482631ms
+logger=cleanup t=2025-04-28T15:39:20.345007654Z level=info msg="Completed cleanup jobs" duration=58.367247ms
+logger=grafana.update.checker t=2025-04-28T15:39:20.409809098Z level=info msg="Update check succeeded" duration=25.25865ms
+logger=plugins.update.checker t=2025-04-28T15:39:20.434485109Z level=info msg="Update check succeeded" duration=32.566253ms
+logger=infra.usagestats t=2025-04-28T15:40:38.276828789Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T15:49:20.300689167Z level=info msg="Completed cleanup jobs" duration=14.37649ms
+logger=grafana.update.checker t=2025-04-28T15:49:20.406399523Z level=info msg="Update check succeeded" duration=22.253871ms
+logger=plugins.update.checker t=2025-04-28T15:49:20.43928693Z level=info msg="Update check succeeded" duration=35.758499ms
+logger=cleanup t=2025-04-28T15:59:20.3003854Z level=info msg="Completed cleanup jobs" duration=14.021741ms
+logger=grafana.update.checker t=2025-04-28T15:59:20.41374389Z level=info msg="Update check succeeded" duration=28.551261ms
+logger=plugins.update.checker t=2025-04-28T15:59:20.452222743Z level=info msg="Update check succeeded" duration=42.119622ms
+logger=cleanup t=2025-04-28T16:09:20.292388809Z level=info msg="Completed cleanup jobs" duration=6.12734ms
+logger=grafana.update.checker t=2025-04-28T16:09:20.400981444Z level=info msg="Update check succeeded" duration=16.384693ms
+logger=plugins.update.checker t=2025-04-28T16:09:20.433986149Z level=info msg="Update check succeeded" duration=33.747255ms
+logger=infra.usagestats t=2025-04-28T16:10:38.276703638Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T16:19:20.29369775Z level=info msg="Completed cleanup jobs" duration=7.376195ms
+logger=grafana.update.checker t=2025-04-28T16:19:20.401684945Z level=info msg="Update check succeeded" duration=17.744848ms
+logger=plugins.update.checker t=2025-04-28T16:19:20.432424649Z level=info msg="Update check succeeded" duration=31.746685ms
+logger=cleanup t=2025-04-28T16:29:20.291464205Z level=info msg="Completed cleanup jobs" duration=5.098759ms
+logger=grafana.update.checker t=2025-04-28T16:29:20.398707902Z level=info msg="Update check succeeded" duration=14.451276ms
+logger=plugins.update.checker t=2025-04-28T16:29:20.433600789Z level=info msg="Update check succeeded" duration=32.841163ms
+logger=cleanup t=2025-04-28T16:39:20.296236845Z level=info msg="Completed cleanup jobs" duration=10.151628ms
+logger=grafana.update.checker t=2025-04-28T16:39:20.403490524Z level=info msg="Update check succeeded" duration=18.673007ms
+logger=plugins.update.checker t=2025-04-28T16:39:20.436426873Z level=info msg="Update check succeeded" duration=36.22567ms
+logger=infra.usagestats t=2025-04-28T16:40:38.274889992Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T16:49:20.296877322Z level=info msg="Completed cleanup jobs" duration=10.519484ms
+logger=grafana.update.checker t=2025-04-28T16:49:20.399601571Z level=info msg="Update check succeeded" duration=14.848867ms
+logger=plugins.update.checker t=2025-04-28T16:49:20.431285114Z level=info msg="Update check succeeded" duration=31.017508ms
+logger=cleanup t=2025-04-28T16:59:20.297874273Z level=info msg="Completed cleanup jobs" duration=11.809017ms
+logger=grafana.update.checker t=2025-04-28T16:59:20.400771571Z level=info msg="Update check succeeded" duration=16.285ms
+logger=plugins.update.checker t=2025-04-28T16:59:20.43248412Z level=info msg="Update check succeeded" duration=31.606324ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T17:01:01.022336091Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=34.79.118.200 time_ms=1 duration=1.763266ms size=29 referer= handler=/
+logger=cleanup t=2025-04-28T17:09:20.29834126Z level=info msg="Completed cleanup jobs" duration=12.330732ms
+logger=grafana.update.checker t=2025-04-28T17:09:20.404680591Z level=info msg="Update check succeeded" duration=20.312705ms
+logger=plugins.update.checker t=2025-04-28T17:09:20.441307758Z level=info msg="Update check succeeded" duration=40.268412ms
+logger=infra.usagestats t=2025-04-28T17:10:38.276899438Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T17:12:05.665075778Z level=info msg="Request Completed" method=GET path=/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo status=302 remote_addr=172.58.180.190 time_ms=8 duration=8.6005ms size=47 referer= handler=/d/:uid/:slug
+logger=context userId=0 orgId=0 uname= t=2025-04-28T17:12:05.717211602Z level=info msg="Request Completed" method=GET path=/user/auth-tokens/rotate status=302 remote_addr=172.58.180.190 time_ms=6 duration=6.886619ms size=90 referer= handler=/user/auth-tokens/rotate
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:12:08.303489786Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.785761ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:12:36.70668114Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=738.574µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:12:36.8066545Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=677.122µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:13:19.743550495Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=17 duration=17.626747ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:13:27.008451872Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.412875ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:13:31.431666253Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=714.873µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T17:19:20.291673511Z level=info msg="Completed cleanup jobs" duration=5.852025ms
+logger=grafana.update.checker t=2025-04-28T17:19:20.404181292Z level=info msg="Update check succeeded" duration=19.899533ms
+logger=plugins.update.checker t=2025-04-28T17:19:20.434468914Z level=info msg="Update check succeeded" duration=33.200055ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:20:11.218350986Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=22 duration=22.255688ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:20:11.362291815Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=478.56µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:20:22.461936359Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=683.349µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=0 orgId=0 uname= t=2025-04-28T17:20:36.123897188Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=20.84.144.136 time_ms=0 duration=112.913µs size=29 referer= handler=/
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:25:42.794594408Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=28 duration=28.567481ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:25:43.042199846Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=565.018µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:25:58.819797Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=18 duration=18.719084ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:26:00.011559543Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:28:00.988989276Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:29:00.905284732Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T17:29:20.290797176Z level=info msg="Completed cleanup jobs" duration=4.996363ms
+logger=grafana.update.checker t=2025-04-28T17:29:20.401241217Z level=info msg="Update check succeeded" duration=16.507434ms
+logger=plugins.update.checker t=2025-04-28T17:29:20.43856115Z level=info msg="Update check succeeded" duration=38.249487ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:30:01.075545368Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:31:00.929972385Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:32:00.961195063Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:33:00.993989388Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:34:00.898698756Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:34:06.181192387Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=15 duration=15.073659ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:34:10.001737576Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=1ba0cbb4f9beeea9
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:34:10.008811255Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:34:10.011462379Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T17:39:20.301062397Z level=info msg="Completed cleanup jobs" duration=14.725317ms
+logger=grafana.update.checker t=2025-04-28T17:39:20.40896846Z level=info msg="Update check succeeded" duration=24.585891ms
+logger=plugins.update.checker t=2025-04-28T17:39:20.486442496Z level=info msg="Update check succeeded" duration=80.293208ms
+logger=infra.usagestats t=2025-04-28T17:40:38.274443735Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:42:48.536516378Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=630.922µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:42:50.097019517Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=924.325µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:43:27.685636917Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.441325ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:43:27.901605093Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=777.266µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:44:00.918173426Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=37 duration=37.322894ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:44:17.83942833Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.398611ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:44:17.952177304Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=911.225µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:46:46.526845779Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=751.784µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T17:49:20.308373078Z level=info msg="Completed cleanup jobs" duration=22.990202ms
+logger=grafana.update.checker t=2025-04-28T17:49:20.409843468Z level=info msg="Update check succeeded" duration=25.313841ms
+logger=plugins.update.checker t=2025-04-28T17:49:20.442205233Z level=info msg="Update check succeeded" duration=35.761835ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:50:45.239686778Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.552959ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:50:45.426731133Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=697.788µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:54:17.058081712Z level=info msg="Request Completed" method=GET path="/api/ruler/grafana/api/v1/rules/MQTT alerts/WATERBRIDGE" status=202 remote_addr=172.58.180.190 time_ms=1 duration=1.764793ms size=33 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace/:Groupname
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:54:17.110824935Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.796415ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:54:20.002131073Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:54:20.011204335Z level=info msg="Rules state was reset" states=175
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T17:54:21.513861516Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:54:21.514203002Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=3 duration=3.324772ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:54:40.558657107Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=12 duration=12.349362ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T17:54:50.002593741Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=2494f0dad8bae222
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T17:58:56.519779818Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T17:58:56.52094083Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=4 duration=4.975114ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=cleanup t=2025-04-28T17:59:20.309984345Z level=info msg="Completed cleanup jobs" duration=24.617682ms
+logger=grafana.update.checker t=2025-04-28T17:59:20.411834954Z level=info msg="Update check succeeded" duration=27.451945ms
+logger=plugins.update.checker t=2025-04-28T17:59:20.457202543Z level=info msg="Update check succeeded" duration=50.928834ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:01:35.747275243Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=11 duration=11.246647ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:01:40.002414069Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=2cc1bab310be2132
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:01:40.01025089Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:04:00.958628545Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T18:05:00.983287084Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:05:01.276778987Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:06:00.989199563Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:07:01.005818949Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:08:00.959238306Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:08:08.554101947Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=12 duration=12.788258ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:08:10.001728982Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:08:10.010957661Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T18:08:10.015701016Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:08:59.260660621Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=4 duration=4.631279ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:09:01.242102523Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=815.335µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T18:09:20.290883929Z level=info msg="Completed cleanup jobs" duration=5.214887ms
+logger=grafana.update.checker t=2025-04-28T18:09:20.401600015Z level=info msg="Update check succeeded" duration=16.676124ms
+logger=plugins.update.checker t=2025-04-28T18:09:20.437029947Z level=info msg="Update check succeeded" duration=36.291538ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:09:27.94894481Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=17 duration=17.702537ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:09:28.142154021Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=652.774µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:09:48.096688886Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=878.181µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=infra.usagestats t=2025-04-28T18:10:38.274384374Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:11:06.299047126Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=23 duration=23.214659ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:11:06.387159278Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=883.237µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:11:09.771638918Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=914.458µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:11:32.307018099Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=689.42µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T18:11:34.086932159Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=693.723µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T18:11:36.67363062Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=cleanup t=2025-04-28T18:19:20.295824906Z level=info msg="Completed cleanup jobs" duration=10.512467ms
+logger=grafana.update.checker t=2025-04-28T18:19:20.405399836Z level=info msg="Update check succeeded" duration=21.056226ms
+logger=plugins.update.checker t=2025-04-28T18:19:20.438680322Z level=info msg="Update check succeeded" duration=36.489371ms
+logger=cleanup t=2025-04-28T18:29:20.296559588Z level=info msg="Completed cleanup jobs" duration=10.859806ms
+logger=grafana.update.checker t=2025-04-28T18:29:20.401182287Z level=info msg="Update check succeeded" duration=16.53678ms
+logger=plugins.update.checker t=2025-04-28T18:29:20.440699199Z level=info msg="Update check succeeded" duration=40.317348ms
+logger=cleanup t=2025-04-28T18:39:20.2952955Z level=info msg="Completed cleanup jobs" duration=2.67627ms
+logger=grafana.update.checker t=2025-04-28T18:39:20.401412589Z level=info msg="Update check succeeded" duration=16.475601ms
+logger=plugins.update.checker t=2025-04-28T18:39:20.43640536Z level=info msg="Update check succeeded" duration=35.670053ms
+logger=infra.usagestats t=2025-04-28T18:40:38.273440954Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T18:49:20.299376014Z level=info msg="Completed cleanup jobs" duration=13.01526ms
+logger=grafana.update.checker t=2025-04-28T18:49:20.403429801Z level=info msg="Update check succeeded" duration=18.927894ms
+logger=plugins.update.checker t=2025-04-28T18:49:20.433543113Z level=info msg="Update check succeeded" duration=33.295686ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T18:52:05.54314692Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.31 time_ms=0 duration=253.287µs size=29 referer= handler=/
+logger=http.server t=2025-04-28T18:52:05.671684371Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-28T18:59:20.2905775Z level=info msg="Completed cleanup jobs" duration=5.009647ms
+logger=grafana.update.checker t=2025-04-28T18:59:20.403049605Z level=info msg="Update check succeeded" duration=18.584848ms
+logger=plugins.update.checker t=2025-04-28T18:59:20.438610532Z level=info msg="Update check succeeded" duration=38.29091ms
+logger=cleanup t=2025-04-28T19:09:20.296301699Z level=info msg="Completed cleanup jobs" duration=10.598294ms
+logger=grafana.update.checker t=2025-04-28T19:09:20.40253231Z level=info msg="Update check succeeded" duration=18.633797ms
+logger=plugins.update.checker t=2025-04-28T19:09:20.433072063Z level=info msg="Update check succeeded" duration=32.857798ms
+logger=infra.usagestats t=2025-04-28T19:10:38.276914685Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T19:19:20.291746181Z level=info msg="Completed cleanup jobs" duration=5.728132ms
+logger=grafana.update.checker t=2025-04-28T19:19:20.403274584Z level=info msg="Update check succeeded" duration=18.330975ms
+logger=plugins.update.checker t=2025-04-28T19:19:20.444581849Z level=info msg="Update check succeeded" duration=44.309665ms
+logger=cleanup t=2025-04-28T19:29:20.297240918Z level=info msg="Completed cleanup jobs" duration=11.66028ms
+logger=grafana.update.checker t=2025-04-28T19:29:20.413946943Z level=info msg="Update check succeeded" duration=27.760938ms
+logger=plugins.update.checker t=2025-04-28T19:29:20.447820883Z level=info msg="Update check succeeded" duration=38.80096ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T19:29:49.786826309Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=137.74.181.254 time_ms=0 duration=498.123µs size=29 referer= handler=/
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T19:31:43.81205558Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=http.server t=2025-04-28T19:36:13.519938442Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T19:36:50.495432629Z level=info msg="Request Completed" method=GET path=/favicon.ico status=302 remote_addr=91.196.152.115 time_ms=0 duration=217.128µs size=29 referer= handler=public-assets
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:37:35.440444652Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=39 duration=39.349283ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:37:35.627631161Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=910.302µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:37:51.869415309Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.49072ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:38:00.010083822Z level=info msg="Rules state was reset" states=175
+logger=cleanup t=2025-04-28T19:39:20.30147947Z level=info msg="Completed cleanup jobs" duration=13.144021ms
+logger=grafana.update.checker t=2025-04-28T19:39:20.410868832Z level=info msg="Update check succeeded" duration=26.924838ms
+logger=plugins.update.checker t=2025-04-28T19:39:20.438230252Z level=info msg="Update check succeeded" duration=33.839612ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:40:00.96510677Z level=info msg="Sending alerts to local notifier" count=175
+logger=infra.usagestats t=2025-04-28T19:40:38.274011626Z level=info msg="Usage stats are ready to report"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:41:00.919004737Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T19:41:00.935458702Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:42:01.027912988Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:43:00.970090974Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T19:43:45.058189395Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:43:45.05866293Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=12 duration=12.733244ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:44:00.903242343Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:44:59.438676468Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.373875ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:44:59.541431229Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=729.054µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:45:01.08016294Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:14.140309017Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.460662ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:18.852414924Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.499173ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:27.43375083Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.798597ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:52.329150794Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.962696ms size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:54.160640754Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=911.059µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:45:54.237023975Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=857.245µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:46:00.973474546Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:46:22.327018852Z level=error msg="no admin configuration available" error="no admin configuration available" remote_addr=172.58.180.190 traceID=
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:46:22.327177352Z level=info msg="Request Completed" method=GET path=/api/v1/ngalert/admin_config status=404 remote_addr=172.58.180.190 time_ms=0 duration=789.983µs size=59 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:46:58.926971016Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=706.027µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:46:58.986951324Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=719.744µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:47:00.918638799Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:47:17.830966263Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=3 duration=3.251517ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:48:00.897053655Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:49:01.009317503Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T19:49:20.291704297Z level=info msg="Completed cleanup jobs" duration=6.196958ms
+logger=grafana.update.checker t=2025-04-28T19:49:20.41090026Z level=info msg="Update check succeeded" duration=25.973032ms
+logger=plugins.update.checker t=2025-04-28T19:49:20.446636433Z level=info msg="Update check succeeded" duration=39.345072ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:50:00.941567944Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:01.77455169Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=8 duration=8.723028ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:03.717017446Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=840.974µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:10.271645428Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=15 duration=15.406928ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:10.457289466Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=980.076µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:28.64195511Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=839.752µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:47.194199747Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=17 duration=17.92948ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:47.386679175Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=673.025µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:50:48.976845253Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=650.745µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:51:00.962945317Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:52:00.982111059Z level=info msg="Sending alerts to local notifier" count=175
+logger=server t=2025-04-28T19:52:39.388422744Z level=info msg="Shutdown started" reason="System signal: terminated"
+logger=tracing t=2025-04-28T19:52:39.390967113Z level=info msg="Closing tracing"
+logger=ticker t=2025-04-28T19:52:39.391037013Z level=info msg=stopped last_tick=2025-04-28T19:52:30Z
+logger=plugin.grafana-mqtt-datasource t=2025-04-28T19:52:39.392864245Z level=error msg="plugin process exited" plugin=/home/mike/grafana-white-label/data/plugins/grafana-mqtt-datasource/gpx_mqtt_linux_amd64 id=763 error="signal: terminated"
+logger=settings t=2025-04-28T19:52:39.86451534Z level=info msg="Starting Grafana" version=10.2.3 commit=1e84fede543 branch=HEAD compiled=2023-12-18T14:03:01Z
+logger=settings t=2025-04-28T19:52:39.865473192Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/defaults.ini
+logger=settings t=2025-04-28T19:52:39.865523681Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/custom.ini
+logger=settings t=2025-04-28T19:52:39.865539012Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_DATA=/home/mike/grafana-white-label/data"
+logger=settings t=2025-04-28T19:52:39.865551392Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_LOGS=/home/mike/grafana-white-label/logs"
+logger=settings t=2025-04-28T19:52:39.865565248Z level=info msg=Target target=[all]
+logger=settings t=2025-04-28T19:52:39.865598673Z level=info msg="Path Home" path=/home/mike/grafana-white-label
+logger=settings t=2025-04-28T19:52:39.865610763Z level=info msg="Path Data" path=/home/mike/grafana-white-label/data
+logger=settings t=2025-04-28T19:52:39.865622837Z level=info msg="Path Logs" path=/home/mike/grafana-white-label/logs
+logger=settings t=2025-04-28T19:52:39.865635102Z level=info msg="Path Plugins" path=/home/mike/grafana-white-label/data/plugins
+logger=settings t=2025-04-28T19:52:39.865647565Z level=info msg="Path Provisioning" path=/home/mike/grafana-white-label/conf/provisioning
+logger=settings t=2025-04-28T19:52:39.865659832Z level=info msg="App mode production"
+logger=sqlstore t=2025-04-28T19:52:39.866541826Z level=info msg="Connecting to DB" dbtype=sqlite3
+logger=sqlstore t=2025-04-28T19:52:39.8665861Z level=warn msg="SQLite database file has broader permissions than it should" path=/home/mike/grafana-white-label/data/grafana.db mode=-rw-rw---- expected=-rw-r-----
+logger=migrator t=2025-04-28T19:52:39.870445919Z level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-28T19:52:39.888572411Z level=info msg="migrations completed" performed=0 skipped=523 duration=1.072179ms
+logger=secrets t=2025-04-28T19:52:39.891233382Z level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.store t=2025-04-28T19:52:39.935843482Z level=info msg="Loading plugins..."
+logger=plugins.validator.module t=2025-04-28T19:52:39.997934223Z level=warn msg="Plugin missing module.js" pluginId=input warning="Missing module.js, If you loaded this plugin from git, make sure to compile it."
+logger=plugins.registration t=2025-04-28T19:52:39.99800818Z level=info msg="Plugin registered" pluginId=input
+logger=plugins.registration t=2025-04-28T19:52:40.33902006Z level=info msg="Plugin registered" pluginId=grafana-mqtt-datasource
+logger=plugins.registration t=2025-04-28T19:52:40.357050694Z level=info msg="Plugin registered" pluginId=marcusolsson-json-datasource
+logger=plugins.registration t=2025-04-28T19:52:40.357136452Z level=info msg="Plugin registered" pluginId=simpod-json-datasource
+logger=plugin.store t=2025-04-28T19:52:40.357160678Z level=info msg="Plugins loaded" count=59 duration=421.321062ms
+logger=query_data t=2025-04-28T19:52:40.380705649Z level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-28T19:52:40.387655304Z level=info msg="Live Push Gateway initialization"
+logger=ngalert.migration t=2025-04-28T19:52:40.398060194Z level=info msg=Starting
+logger=ngalert.migration CurrentType=UnifiedAlerting DesiredType=UnifiedAlerting CleanOnDowngrade=false CleanOnUpgrade=false t=2025-04-28T19:52:40.398904838Z level=info msg="Migration already complete"
+logger=infra.usagestats.collector t=2025-04-28T19:52:40.427238126Z level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-28T19:52:40.432404355Z level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-28T19:52:40.432486043Z level=info msg="finished to provision alerting"
+logger=grafanaStorageLogger t=2025-04-28T19:52:40.433623705Z level=info msg="Storage starting"
+logger=http.server t=2025-04-28T19:52:40.444873776Z level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=ngalert.state.manager t=2025-04-28T19:52:40.445102155Z level=info msg="Warming state cache for startup"
+logger=ngalert.multiorg.alertmanager t=2025-04-28T19:52:40.457902893Z level=info msg="Starting MultiOrg Alertmanager"
+logger=ngalert.state.manager t=2025-04-28T19:52:40.477059241Z level=info msg="State cache has been initialized" states=175 duration=31.952828ms
+logger=ngalert.scheduler t=2025-04-28T19:52:40.477156774Z level=info msg="Starting scheduler" tickInterval=10s
+logger=ticker t=2025-04-28T19:52:40.47724876Z level=info msg=starting first_tick=2025-04-28T19:52:50Z
+logger=grafana.update.checker t=2025-04-28T19:52:40.644816737Z level=info msg="Update check succeeded" duration=186.447542ms
+logger=plugins.update.checker t=2025-04-28T19:52:40.663194996Z level=info msg="Update check succeeded" duration=209.402561ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:52:41.76634419Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=4 duration=4.3033ms size=0 referer= handler=/api/live/ws
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:53:01.003773649Z level=info msg="Sending alerts to local notifier" count=175
+logger=live t=2025-04-28T19:53:11.361356158Z level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb address=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:54:01.000262959Z level=info msg="Sending alerts to local notifier" count=175
+logger=infra.usagestats t=2025-04-28T19:54:15.438073674Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:54:16.308963668Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.488725ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T19:54:16.662026463Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.093396ms size=64 referer="http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:55:00.979515012Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:56:00.963797989Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:57:00.949276583Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:58:00.953224896Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T19:59:01.100664183Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:00:01.181826231Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:01:00.987627164Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:02:00.920961202Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T20:02:40.462890288Z level=info msg="Completed cleanup jobs" duration=10.383974ms
+logger=grafana.update.checker t=2025-04-28T20:02:40.66405571Z level=info msg="Update check succeeded" duration=18.653508ms
+logger=plugins.update.checker t=2025-04-28T20:02:40.700556737Z level=info msg="Update check succeeded" duration=37.213985ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:02:41.925838365Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=30 duration=30.183523ms size=35 referer="http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit?alertmanager=grafana" handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:02:42.232582579Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=552.425µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:02:47.216526584Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=613.533µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:02:47.316757412Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=706.58µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:03:01.023428153Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:03:15.06560059Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.788428ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:03:20.002459509Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:03:20.010342066Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:03:20.013891487Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:04:40.517098735Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.01836ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:04:42.536850717Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=732.087µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:05:18.390594607Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=19 duration=19.730458ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:05:18.511782394Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=805.804µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:05:26.03801133Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.659377ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T20:05:29.249199692Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T20:06:54.53004379Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:06:54.530263825Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=3 duration=3.832787ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:06:56.381707608Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=649.401µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:06:57.786994843Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=667.96µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:06:59.269582597Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.843494ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:06:59.366793931Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=964.984µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:07:00.610465297Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=263 duration=263.528589ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:07:00.700355024Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=4 duration=4.066122ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:07:05.270566177Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.742849ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:07:25.347367543Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=16 duration=16.443094ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:07:30.001675809Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=2cc1bab310be2132
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:07:30.012376797Z level=info msg="Rules state was reset" states=175
+logger=context userId=0 orgId=0 uname= t=2025-04-28T20:09:00.573392262Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=185.242.226.21 time_ms=0 duration=125.377µs size=29 referer= handler=/
+logger=http.server t=2025-04-28T20:09:01.121554519Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:10:01.736132557Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:11:01.018859631Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.notifier.email notifierUID=e4fb97d2-da26-409c-a648-85105112fb91 t=2025-04-28T20:11:01.035138644Z level=warn msg="failed to template email message" error="template: :1: function \"upper\" not defined"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:14.986592757Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=775.834µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:16.741982801Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.041463ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:27.444028341Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=33 duration=33.21095ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:27.541714056Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=742.487µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:29.686778464Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=475.778µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:29.717010781Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=720.95µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:34.706200498Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=15 duration=15.112496ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:11:48.295058785Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=39 duration=39.096ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:11:50.002361614Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:11:50.011297874Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:11:50.015262154Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:20.488790562Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.772721ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:22.646571927Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=744.585µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:33.620944995Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=15 duration=15.056986ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:33.771914269Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=751.172µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:35.456840675Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=643.452µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:12:35.496875708Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=702.479µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T20:12:40.485100061Z level=info msg="Completed cleanup jobs" duration=33.163809ms
+logger=grafana.update.checker t=2025-04-28T20:12:40.665716957Z level=info msg="Update check succeeded" duration=19.836723ms
+logger=plugins.update.checker t=2025-04-28T20:12:40.69280623Z level=info msg="Update check succeeded" duration=29.320205ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T20:20:03.011193788Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=198.235.24.88 time_ms=0 duration=160.951µs size=29 referer= handler=/
+logger=cleanup t=2025-04-28T20:22:40.462647334Z level=info msg="Completed cleanup jobs" duration=10.44843ms
+logger=grafana.update.checker t=2025-04-28T20:22:40.658346894Z level=info msg="Update check succeeded" duration=12.839315ms
+logger=plugins.update.checker t=2025-04-28T20:22:40.698849607Z level=info msg="Update check succeeded" duration=35.497501ms
+logger=infra.usagestats t=2025-04-28T20:24:15.496887273Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:29:47.400209505Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=702.35µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:29:47.447003023Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=838.268µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=0 orgId=0 uname= t=2025-04-28T20:32:28.893363864Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.202 time_ms=0 duration=148.326µs size=29 referer= handler=/
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:32:30.936297068Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=540.807µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:32:30.97681436Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=693.476µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:32:39.808883038Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=561.721µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T20:32:40.474050833Z level=info msg="Completed cleanup jobs" duration=22.04725ms
+logger=grafana.update.checker t=2025-04-28T20:32:40.66742537Z level=info msg="Update check succeeded" duration=21.415108ms
+logger=plugins.update.checker t=2025-04-28T20:32:40.697223416Z level=info msg="Update check succeeded" duration=33.00492ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:34:59.891675189Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.004864ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:35:01.777064082Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.3523ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:36:16.420616417Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.516139ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:36:16.521882546Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=493.862µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:36:19.751528959Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=688.966µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:36:41.129617283Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.399667ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:36:50.002610877Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=2cc1bab310be2132
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:36:50.013538649Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:39:01.010492191Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:40:01.095317263Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:41:00.960352014Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:41:20.578409239Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.656236ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:41:22.331406437Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=756.434µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:41:27.281656175Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=619.527µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:41:27.311582924Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=678.4µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:42:01.001790026Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T20:42:40.463440218Z level=info msg="Completed cleanup jobs" duration=10.580059ms
+logger=grafana.update.checker t=2025-04-28T20:42:40.659484545Z level=info msg="Update check succeeded" duration=14.494936ms
+logger=plugins.update.checker t=2025-04-28T20:42:40.696989253Z level=info msg="Update check succeeded" duration=33.605416ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:42:50.22524935Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=4 duration=4.355327ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:42:52.066447954Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=688.11µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:43:00.987251697Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:44:00.930217743Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:45:01.414827559Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:46:00.926737843Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:46:26.540071595Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=19 duration=19.157104ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:46:26.631808223Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=711.378µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:46:46.540272486Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=18 duration=18.711843ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:46:50.003014179Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:46:50.013506447Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:46:50.017310441Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:47:42.033503164Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.449818ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:47:48.241857257Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=940.744µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:47:48.286585092Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=719.517µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:48:35.297326398Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.409899ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:48:36.888261845Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.098282ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:48:57.912282983Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=11 duration=11.402281ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:49:00.009165988Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:51:00.933844113Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T20:51:40.659140695Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:51:40.659596143Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.354098ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:52:00.945028355Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T20:52:40.459765871Z level=info msg="Completed cleanup jobs" duration=7.723054ms
+logger=grafana.update.checker t=2025-04-28T20:52:40.662408247Z level=info msg="Update check succeeded" duration=17.356411ms
+logger=plugins.update.checker t=2025-04-28T20:52:40.697457405Z level=info msg="Update check succeeded" duration=34.125156ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:53:00.931355614Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:53:09.017201443Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.309009ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:53:09.051377458Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=667.011µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=0 orgId=0 uname= t=2025-04-28T20:53:10.560824559Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=71.6.232.24 time_ms=0 duration=118.124µs size=29 referer= handler=/
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:53:30.539370144Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.247652ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:54:00.948791919Z level=info msg="Sending alerts to local notifier" count=175
+logger=infra.usagestats t=2025-04-28T20:54:15.440660063Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:54:26.597200916Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.128298ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T20:54:26.636439312Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=674.647µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:55:01.007283253Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:56:00.947288237Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:57:00.951192349Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:58:01.10725708Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T20:59:01.016175307Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:00:01.033586361Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=0 orgId=0 uname= t=2025-04-28T21:00:14.371158838Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=147.185.132.42 time_ms=0 duration=194.285µs size=29 referer= handler=/
+logger=http.server t=2025-04-28T21:00:14.435797132Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:01:00.961694093Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:02:01.050291834Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T21:02:40.462662603Z level=info msg="Completed cleanup jobs" duration=10.662889ms
+logger=grafana.update.checker t=2025-04-28T21:02:40.664279074Z level=info msg="Update check succeeded" duration=18.720403ms
+logger=plugins.update.checker t=2025-04-28T21:02:40.705244169Z level=info msg="Update check succeeded" duration=41.868927ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:03:00.933220076Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:04:00.951901797Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:05:01.049470066Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:21.878512139Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.52424ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:23.72704321Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=844.921µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:38.795297393Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=19 duration=19.481193ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:38.911726066Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=817.151µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:40.526685048Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=587.98µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:05:40.572146934Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=672.372µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:06:00.966310182Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:07:00.979221236Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:08:00.940150476Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T21:08:41.334755971Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:08:41.3351991Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=3 duration=3.670789ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:08:53.641451Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=5 duration=5.368508ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:08:53.677315912Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=807.844µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:09:00.997043409Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:02.790965649Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=14 duration=14.780923ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:05.550812599Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=4 duration=4.15223ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:08.477269596Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.381843ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:20.36618403Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=40 duration=40.085257ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:20.482296273Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=849.593µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:30.953609009Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.858972ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:09:31.006737055Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=673.441µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:10:00.98622962Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:11:00.974145495Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:12:00.925021259Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:12:22.609106005Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.857016ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:12:22.687029778Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=745.281µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T21:12:40.463032214Z level=info msg="Completed cleanup jobs" duration=10.524168ms
+logger=grafana.update.checker t=2025-04-28T21:12:40.664309769Z level=info msg="Update check succeeded" duration=18.558914ms
+logger=plugins.update.checker t=2025-04-28T21:12:40.698944573Z level=info msg="Update check succeeded" duration=34.838999ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:13:00.920067055Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:18.239695598Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=13 duration=13.678461ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:19.317231007Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=494.052µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:13:20.001839288Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:13:20.010901912Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:13:20.015358456Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:21.4119073Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=976.254µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:29.617405854Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=26 duration=26.460406ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:29.706842983Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=643.717µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:34.787260211Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.325643ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:34.821993863Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=680.123µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:41.761035738Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=15 duration=15.26916ms size=35 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=server t=2025-04-28T21:13:57.744341231Z level=info msg="Shutdown started" reason="System signal: terminated"
+logger=tracing t=2025-04-28T21:13:57.749211506Z level=info msg="Closing tracing"
+logger=ticker t=2025-04-28T21:13:57.750973359Z level=info msg=stopped last_tick=2025-04-28T21:13:50Z
+logger=plugin.grafana-mqtt-datasource t=2025-04-28T21:13:57.751970671Z level=error msg="plugin process exited" plugin=/home/mike/grafana-white-label/data/plugins/grafana-mqtt-datasource/gpx_mqtt_linux_amd64 id=784092 error="signal: terminated"
+logger=settings t=2025-04-28T21:13:58.310441763Z level=info msg="Starting Grafana" version=10.2.3 commit=1e84fede543 branch=HEAD compiled=2023-12-18T14:03:01Z
+logger=settings t=2025-04-28T21:13:58.311393974Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/defaults.ini
+logger=settings t=2025-04-28T21:13:58.31180432Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/custom.ini
+logger=settings t=2025-04-28T21:13:58.311855003Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_DATA=/home/mike/grafana-white-label/data"
+logger=settings t=2025-04-28T21:13:58.311873496Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_LOGS=/home/mike/grafana-white-label/logs"
+logger=settings t=2025-04-28T21:13:58.311888792Z level=info msg=Target target=[all]
+logger=settings t=2025-04-28T21:13:58.3119158Z level=info msg="Path Home" path=/home/mike/grafana-white-label
+logger=settings t=2025-04-28T21:13:58.312026643Z level=info msg="Path Data" path=/home/mike/grafana-white-label/data
+logger=settings t=2025-04-28T21:13:58.312091921Z level=info msg="Path Logs" path=/home/mike/grafana-white-label/logs
+logger=settings t=2025-04-28T21:13:58.312131811Z level=info msg="Path Plugins" path=/home/mike/grafana-white-label/data/plugins
+logger=settings t=2025-04-28T21:13:58.312159069Z level=info msg="Path Provisioning" path=/home/mike/grafana-white-label/conf/provisioning
+logger=settings t=2025-04-28T21:13:58.312192126Z level=info msg="App mode production"
+logger=sqlstore t=2025-04-28T21:13:58.313448702Z level=info msg="Connecting to DB" dbtype=sqlite3
+logger=sqlstore t=2025-04-28T21:13:58.313591203Z level=warn msg="SQLite database file has broader permissions than it should" path=/home/mike/grafana-white-label/data/grafana.db mode=-rw-rw---- expected=-rw-r-----
+logger=migrator t=2025-04-28T21:13:58.317296486Z level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-28T21:13:58.328656212Z level=info msg="migrations completed" performed=0 skipped=523 duration=1.006506ms
+logger=secrets t=2025-04-28T21:13:58.330519363Z level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.store t=2025-04-28T21:13:58.368892857Z level=info msg="Loading plugins..."
+logger=plugins.validator.module t=2025-04-28T21:13:58.459393636Z level=warn msg="Plugin missing module.js" pluginId=input warning="Missing module.js, If you loaded this plugin from git, make sure to compile it."
+logger=plugins.registration t=2025-04-28T21:13:58.459476291Z level=info msg="Plugin registered" pluginId=input
+logger=plugins.registration t=2025-04-28T21:13:58.748799593Z level=info msg="Plugin registered" pluginId=grafana-mqtt-datasource
+logger=plugins.registration t=2025-04-28T21:13:58.77205824Z level=info msg="Plugin registered" pluginId=marcusolsson-json-datasource
+logger=plugins.registration t=2025-04-28T21:13:58.77297408Z level=info msg="Plugin registered" pluginId=simpod-json-datasource
+logger=plugin.store t=2025-04-28T21:13:58.773050649Z level=info msg="Plugins loaded" count=59 duration=404.16022ms
+logger=query_data t=2025-04-28T21:13:58.785931794Z level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-28T21:13:58.796106953Z level=info msg="Live Push Gateway initialization"
+logger=ngalert.migration t=2025-04-28T21:13:58.805594787Z level=info msg=Starting
+logger=ngalert.migration CurrentType=UnifiedAlerting DesiredType=UnifiedAlerting CleanOnDowngrade=false CleanOnUpgrade=false t=2025-04-28T21:13:58.806092371Z level=info msg="Migration already complete"
+logger=infra.usagestats.collector t=2025-04-28T21:13:58.84096864Z level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-28T21:13:58.845487247Z level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-28T21:13:58.845741652Z level=info msg="finished to provision alerting"
+logger=grafanaStorageLogger t=2025-04-28T21:13:58.847582051Z level=info msg="Storage starting"
+logger=http.server t=2025-04-28T21:13:58.853437958Z level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=ngalert.state.manager t=2025-04-28T21:13:58.854022494Z level=info msg="Warming state cache for startup"
+logger=ngalert.multiorg.alertmanager t=2025-04-28T21:13:58.871452053Z level=info msg="Starting MultiOrg Alertmanager"
+logger=ngalert.state.manager t=2025-04-28T21:13:58.884733201Z level=info msg="State cache has been initialized" states=0 duration=30.645621ms
+logger=ngalert.scheduler t=2025-04-28T21:13:58.886185481Z level=info msg="Starting scheduler" tickInterval=10s
+logger=ticker t=2025-04-28T21:13:58.887385055Z level=info msg=starting first_tick=2025-04-28T21:14:00Z
+logger=grafana.update.checker t=2025-04-28T21:13:58.980739037Z level=info msg="Update check succeeded" duration=110.851158ms
+logger=plugins.update.checker t=2025-04-28T21:13:58.997377098Z level=info msg="Update check succeeded" duration=126.847361ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:59.475567671Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=4 duration=4.357152ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:13:59.863384344Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.435139ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:14:21.01265258Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.421193ms size=0 referer= handler=/api/live/ws
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T21:15:02.1652382Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:02.165557181Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=9 duration=9.057938ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:04.802002525Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=580.12µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:04.839288784Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=859.772µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:06.789297703Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=733.086µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:16.298527001Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.487475ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:16.341907439Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=667.287µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:17.406853211Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=654.581µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:19.077082481Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=649.542µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=infra.usagestats t=2025-04-28T21:15:26.87832367Z level=info msg="Usage stats are ready to report"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:15:55.465603464Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=8 duration=8.790413ms size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:21:45.116504853Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=632.22µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:21:47.336899675Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=732.755µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:23:33.969981089Z level=info msg="Request Completed" method=POST path=/api/alertmanager/grafana/config/api/v1/alerts status=202 remote_addr=172.58.180.190 time_ms=28 duration=28.92257ms size=35 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/alertmanager/grafana/config/api/v1/alerts
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:23:34.08194634Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=462.145µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:23:52.976933926Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=11 duration=11.025432ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=cleanup t=2025-04-28T21:23:58.975544145Z level=info msg="Completed cleanup jobs" duration=109.524309ms
+logger=grafana.update.checker t=2025-04-28T21:23:58.997860296Z level=info msg="Update check succeeded" duration=16.266724ms
+logger=plugins.update.checker t=2025-04-28T21:23:59.035340835Z level=info msg="Update check succeeded" duration=37.271566ms
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:24:00.012093535Z level=info msg="Rules state was reset" states=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:24:40.297039973Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.205669ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:26:00.989380194Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:26:39.733966932Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.618031ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:26:50.232491461Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=779.224µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:26:52.967376176Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=857.057µs size=64 referer="http://itsaenergy.com:3000/alerting/notifications?alertmanager=grafana" handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:26:53.822849057Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.613612ms size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:26:53.88197048Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=683.836µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:27:00.901217003Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:28:00.959166562Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:29:00.956272299Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:30:01.246564671Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:31:00.96504117Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:32:01.012399525Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:32:30.174306196Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.249261ms size=0 referer= handler=/api/live/ws
+logger=live t=2025-04-28T21:32:30.686886301Z level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb address=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:33:00.948678117Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T21:33:58.877788364Z level=info msg="Completed cleanup jobs" duration=11.503008ms
+logger=grafana.update.checker t=2025-04-28T21:33:59.003610951Z level=info msg="Update check succeeded" duration=21.656922ms
+logger=plugins.update.checker t=2025-04-28T21:33:59.033052624Z level=info msg="Update check succeeded" duration=33.02676ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:34:01.09056271Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:35:01.069936939Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:36:00.974044986Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:37:00.931590392Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:38:00.99021913Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:39:00.937559436Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:40:01.099180306Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:41:00.940794348Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:42:01.022461139Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:43:00.958934145Z level=info msg="Sending alerts to local notifier" count=175
+logger=cleanup t=2025-04-28T21:43:58.877855178Z level=info msg="Completed cleanup jobs" duration=11.553899ms
+logger=grafana.update.checker t=2025-04-28T21:43:58.998945856Z level=info msg="Update check succeeded" duration=16.90959ms
+logger=plugins.update.checker t=2025-04-28T21:43:59.035231838Z level=info msg="Update check succeeded" duration=36.944261ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:44:01.007138381Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:45:01.129041237Z level=info msg="Sending alerts to local notifier" count=175
+logger=infra.usagestats t=2025-04-28T21:45:26.882531231Z level=info msg="Usage stats are ready to report"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:46:01.220639811Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:47:00.977077724Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:48:00.974471971Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:49:00.97093424Z level=info msg="Sending alerts to local notifier" count=175
+logger=ngalert.api namespace_uid=a2011903-e94e-4a19-81d3-7654b87e5079 group=WATERBRIDGE org_id=1 user_id=2 userNamespace=user t=2025-04-28T21:49:28.78996149Z level=info msg="No changes detected in the request. Do nothing"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:49:28.790270023Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=4 duration=4.198825ms size=51 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:49:37.576783965Z level=info msg="Request Completed" method=POST path="/api/ruler/grafana/api/v1/rules/MQTT alerts" status=202 remote_addr=172.58.180.190 time_ms=10 duration=10.651917ms size=96 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/ruler/grafana/api/v1/rules/:Namespace
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:49:39.388279325Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=2 duration=2.266838ms size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=ngalert.scheduler rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:49:40.002558217Z level=info msg="Clearing the state of the rule because it was updated" isPaused=false fingerprint=9206113f484c032f
+logger=ngalert.state.manager rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:49:40.013156254Z level=info msg="Rules state was reset" states=175
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-04-28T21:49:40.016170238Z level=info msg="Sending alerts to local notifier" count=175
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:49:41.036991001Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=565.577µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:49:41.117277527Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=840.386µs size=64 referer=http://itsaenergy.com:3000/alerting/routes handler=/api/plugins/:pluginId/settings
+logger=cleanup t=2025-04-28T21:53:58.876616354Z level=info msg="Completed cleanup jobs" duration=10.629768ms
+logger=grafana.update.checker t=2025-04-28T21:53:59.020621055Z level=info msg="Update check succeeded" duration=38.736538ms
+logger=plugins.update.checker t=2025-04-28T21:53:59.030583931Z level=info msg="Update check succeeded" duration=32.05092ms
+logger=http.server t=2025-04-28T21:55:28.308548247Z level=info msg="Successful Logout" User=melvin.henry@nfmconsulting.com
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T21:55:28.308702049Z level=info msg="Request Completed" method=GET path=/logout status=302 remote_addr=172.58.180.190 time_ms=7 duration=7.434099ms size=29 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/logout
+logger=http.server t=2025-04-28T21:55:28.383044089Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=http.server t=2025-04-28T21:57:12.244790412Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-28T22:03:58.877614123Z level=info msg="Completed cleanup jobs" duration=11.599406ms
+logger=grafana.update.checker t=2025-04-28T22:03:59.00294416Z level=info msg="Update check succeeded" duration=20.435678ms
+logger=plugins.update.checker t=2025-04-28T22:03:59.038292943Z level=info msg="Update check succeeded" duration=38.769934ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:04:08.002107368Z level=error msg=Unauthorized error="invalid session token" remote_addr=172.58.180.190 traceID=
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:04:08.002369275Z level=info msg="Request Completed" method=POST path=/api/user/auth-tokens/rotate status=401 remote_addr=172.58.180.190 time_ms=0 duration=487.792µs size=39 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/api/user/auth-tokens/rotate
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:04:08.056898132Z level=info msg="Request Completed" method=GET path=/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit status=302 remote_addr=172.58.180.190 time_ms=0 duration=323.478µs size=29 referer="http://itsaenergy.com:3000/alerting/e7339430-ed3b-47e7-9d3f-3d75b8f5d330/edit?returnTo=%2Falerting%2Flist" handler=/alerting/*
+logger=http.server t=2025-04-28T22:04:08.108856557Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:08:17.158526021Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=185.218.84.169 time_ms=0 duration=137.16µs size=0 referer= handler=notfound
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:08:25.376101523Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=185.218.84.169 time_ms=0 duration=209.569µs size=0 referer= handler=notfound
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:08:33.594368888Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=185.218.84.169 time_ms=0 duration=128.02µs size=0 referer= handler=notfound
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:08:41.811905876Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=185.218.84.169 time_ms=0 duration=135.302µs size=0 referer= handler=notfound
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:08:50.028756339Z level=info msg="Request Completed" method=CONNECT path= status=302 remote_addr=185.218.84.169 time_ms=0 duration=110.47µs size=0 referer= handler=notfound
+logger=cleanup t=2025-04-28T22:13:58.874769398Z level=info msg="Completed cleanup jobs" duration=8.478119ms
+logger=grafana.update.checker t=2025-04-28T22:13:58.999034241Z level=info msg="Update check succeeded" duration=16.681226ms
+logger=plugins.update.checker t=2025-04-28T22:13:59.029560508Z level=info msg="Update check succeeded" duration=30.984305ms
+logger=infra.usagestats t=2025-04-28T22:15:26.881985947Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-28T22:19:34.417576988Z level=info msg="Request Completed" method=GET path=/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo status=302 remote_addr=172.58.180.190 time_ms=0 duration=273.227µs size=29 referer= handler=/d/:uid/:slug
+logger=http.server t=2025-04-28T22:19:34.449410137Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:19:39.603216785Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.672114ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:22:26.774799013Z level=info msg="Request Completed" method=GET path=/test_broker.gif status=404 remote_addr=172.58.180.190 time_ms=8 duration=8.403976ms size=54285 referer=http://itsaenergy.com:3000/plugins/grafana-mqtt-datasource handler=notfound
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:23:02.152429198Z level=error msg="no admin configuration available" error="no admin configuration available" remote_addr=172.58.180.190 traceID=
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:23:02.152832724Z level=info msg="Request Completed" method=GET path=/api/v1/ngalert/admin_config status=404 remote_addr=172.58.180.190 time_ms=1 duration=1.41997ms size=59 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:23:15.410021816Z level=info msg="Request Completed" method=POST path=/api/v1/ngalert/admin_config status=201 remote_addr=172.58.180.190 time_ms=8 duration=8.090029ms size=41 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:23:18.124302679Z level=info msg="Request Completed" method=POST path=/api/v1/ngalert/admin_config status=201 remote_addr=172.58.180.190 time_ms=7 duration=7.999203ms size=41 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:23:19.879379485Z level=info msg="Request Completed" method=POST path=/api/v1/ngalert/admin_config status=201 remote_addr=172.58.180.190 time_ms=8 duration=8.074902ms size=41 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=cleanup t=2025-04-28T22:23:58.877350264Z level=info msg="Completed cleanup jobs" duration=11.367588ms
+logger=grafana.update.checker t=2025-04-28T22:23:58.995293753Z level=info msg="Update check succeeded" duration=12.683591ms
+logger=plugins.update.checker t=2025-04-28T22:23:59.03344216Z level=info msg="Update check succeeded" duration=35.136298ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:24:39.268643342Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.190432ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:25:37.848442866Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=1 duration=1.347693ms size=0 referer= handler=/api/live/ws
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:26:21.933532015Z level=info msg="Request Completed" method=POST path=/api/ds/query status=400 remote_addr=172.58.180.190 time_ms=31 duration=31.989369ms size=433 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s&viewPanel=13" handler=/api/ds/query
+logger=cleanup t=2025-04-28T22:33:58.876666222Z level=info msg="Completed cleanup jobs" duration=10.202049ms
+logger=grafana.update.checker t=2025-04-28T22:33:58.995802811Z level=info msg="Update check succeeded" duration=13.151375ms
+logger=plugins.update.checker t=2025-04-28T22:33:59.04656875Z level=info msg="Update check succeeded" duration=48.740244ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:36:53.117182856Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=527.617µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications handler=/api/plugins/:pluginId/settings
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:36:55.001663305Z level=info msg="Request Completed" method=GET path=/api/plugins/grafana-oncall-app/settings status=404 remote_addr=172.58.180.190 time_ms=0 duration=623.942µs size=64 referer=http://itsaenergy.com:3000/alerting/notifications/receivers/Alert%20notification/edit handler=/api/plugins/:pluginId/settings
+logger=server t=2025-04-28T22:37:15.077954929Z level=info msg="Shutdown started" reason="System signal: terminated"
+logger=ticker t=2025-04-28T22:37:15.081384741Z level=info msg=stopped last_tick=2025-04-28T22:37:10Z
+logger=tracing t=2025-04-28T22:37:15.081623828Z level=info msg="Closing tracing"
+logger=plugin.grafana-mqtt-datasource t=2025-04-28T22:37:15.084830627Z level=error msg="plugin process exited" plugin=/home/mike/grafana-white-label/data/plugins/grafana-mqtt-datasource/gpx_mqtt_linux_amd64 id=798308 error="signal: terminated"
+logger=settings t=2025-04-28T22:37:15.547756538Z level=info msg="Starting Grafana" version=10.2.3 commit=1e84fede543 branch=HEAD compiled=2023-12-18T14:03:01Z
+logger=settings t=2025-04-28T22:37:15.548827392Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/defaults.ini
+logger=settings t=2025-04-28T22:37:15.548910361Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/custom.ini
+logger=settings t=2025-04-28T22:37:15.548942728Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_DATA=/home/mike/grafana-white-label/data"
+logger=settings t=2025-04-28T22:37:15.548962097Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_LOGS=/home/mike/grafana-white-label/logs"
+logger=settings t=2025-04-28T22:37:15.548980958Z level=info msg=Target target=[all]
+logger=settings t=2025-04-28T22:37:15.549009483Z level=info msg="Path Home" path=/home/mike/grafana-white-label
+logger=settings t=2025-04-28T22:37:15.549026388Z level=info msg="Path Data" path=/home/mike/grafana-white-label/data
+logger=settings t=2025-04-28T22:37:15.549042025Z level=info msg="Path Logs" path=/home/mike/grafana-white-label/logs
+logger=settings t=2025-04-28T22:37:15.549059422Z level=info msg="Path Plugins" path=/home/mike/grafana-white-label/data/plugins
+logger=settings t=2025-04-28T22:37:15.549082099Z level=info msg="Path Provisioning" path=/home/mike/grafana-white-label/conf/provisioning
+logger=settings t=2025-04-28T22:37:15.54909831Z level=info msg="App mode production"
+logger=sqlstore t=2025-04-28T22:37:15.550146786Z level=info msg="Connecting to DB" dbtype=sqlite3
+logger=sqlstore t=2025-04-28T22:37:15.550206831Z level=warn msg="SQLite database file has broader permissions than it should" path=/home/mike/grafana-white-label/data/grafana.db mode=-rw-rw---- expected=-rw-r-----
+logger=migrator t=2025-04-28T22:37:15.55392636Z level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-28T22:37:15.565406415Z level=info msg="migrations completed" performed=0 skipped=523 duration=912.064µs
+logger=secrets t=2025-04-28T22:37:15.567268815Z level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.store t=2025-04-28T22:37:15.610969062Z level=info msg="Loading plugins..."
+logger=plugins.validator.module t=2025-04-28T22:37:15.717344784Z level=warn msg="Plugin missing module.js" pluginId=input warning="Missing module.js, If you loaded this plugin from git, make sure to compile it."
+logger=plugins.registration t=2025-04-28T22:37:15.717446365Z level=info msg="Plugin registered" pluginId=input
+logger=plugins.registration t=2025-04-28T22:37:16.155447555Z level=info msg="Plugin registered" pluginId=simpod-json-datasource
+logger=plugins.registration t=2025-04-28T22:37:16.156636907Z level=info msg="Plugin registered" pluginId=grafana-mqtt-datasource
+logger=plugins.registration t=2025-04-28T22:37:16.178889505Z level=info msg="Plugin registered" pluginId=marcusolsson-json-datasource
+logger=plugin.store t=2025-04-28T22:37:16.18058284Z level=info msg="Plugins loaded" count=59 duration=569.416337ms
+logger=query_data t=2025-04-28T22:37:16.202775538Z level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-28T22:37:16.212063876Z level=info msg="Live Push Gateway initialization"
+logger=ngalert.migration t=2025-04-28T22:37:16.224640248Z level=info msg=Starting
+logger=ngalert.migration CurrentType=UnifiedAlerting DesiredType=UnifiedAlerting CleanOnDowngrade=false CleanOnUpgrade=false t=2025-04-28T22:37:16.225677408Z level=info msg="Migration already complete"
+logger=infra.usagestats.collector t=2025-04-28T22:37:16.266400733Z level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-28T22:37:16.273477991Z level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-28T22:37:16.274202168Z level=info msg="finished to provision alerting"
+logger=ngalert.state.manager t=2025-04-28T22:37:16.276284173Z level=info msg="Warming state cache for startup"
+logger=http.server t=2025-04-28T22:37:16.287781682Z level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=grafanaStorageLogger t=2025-04-28T22:37:16.288149279Z level=info msg="Storage starting"
+logger=ngalert.state.manager t=2025-04-28T22:37:16.301510808Z level=info msg="State cache has been initialized" states=175 duration=25.222301ms
+logger=ngalert.scheduler t=2025-04-28T22:37:16.30331002Z level=info msg="Starting scheduler" tickInterval=10s
+logger=ticker t=2025-04-28T22:37:16.304021496Z level=info msg=starting first_tick=2025-04-28T22:37:20Z
+logger=ngalert.multiorg.alertmanager t=2025-04-28T22:37:16.304841702Z level=info msg="Starting MultiOrg Alertmanager"
+logger=grafana.update.checker t=2025-04-28T22:37:16.556689586Z level=info msg="Update check succeeded" duration=257.293437ms
+logger=plugins.update.checker t=2025-04-28T22:37:16.573522047Z level=info msg="Update check succeeded" duration=272.680722ms
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-28T22:37:17.206416151Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.190 time_ms=4 duration=4.190332ms size=0 referer= handler=/api/live/ws
+logger=infra.usagestats t=2025-04-28T22:37:59.278801406Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T22:47:16.297598516Z level=info msg="Completed cleanup jobs" duration=2.674984ms
+logger=grafana.update.checker t=2025-04-28T22:47:16.572545205Z level=info msg="Update check succeeded" duration=15.295204ms
+logger=plugins.update.checker t=2025-04-28T22:47:16.614198652Z level=info msg="Update check succeeded" duration=40.054963ms
+logger=cleanup t=2025-04-28T22:57:16.336231528Z level=info msg="Completed cleanup jobs" duration=41.611676ms
+logger=grafana.update.checker t=2025-04-28T22:57:16.580695623Z level=info msg="Update check succeeded" duration=22.848422ms
+logger=plugins.update.checker t=2025-04-28T22:57:16.612440776Z level=info msg="Update check succeeded" duration=35.606877ms
+logger=cleanup t=2025-04-28T23:07:16.297259015Z level=info msg="Completed cleanup jobs" duration=2.317293ms
+logger=grafana.update.checker t=2025-04-28T23:07:16.574847339Z level=info msg="Update check succeeded" duration=17.554758ms
+logger=plugins.update.checker t=2025-04-28T23:07:16.617404291Z level=info msg="Update check succeeded" duration=43.084839ms
+logger=infra.usagestats t=2025-04-28T23:07:59.359638591Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T23:17:16.296260117Z level=info msg="Completed cleanup jobs" duration=1.96696ms
+logger=grafana.update.checker t=2025-04-28T23:17:16.586677956Z level=info msg="Update check succeeded" duration=29.610218ms
+logger=plugins.update.checker t=2025-04-28T23:17:16.637985721Z level=info msg="Update check succeeded" duration=64.147097ms
+logger=cleanup t=2025-04-28T23:27:16.296651317Z level=info msg="Completed cleanup jobs" duration=2.273332ms
+logger=grafana.update.checker t=2025-04-28T23:27:16.570700726Z level=info msg="Update check succeeded" duration=13.173862ms
+logger=plugins.update.checker t=2025-04-28T23:27:16.612838601Z level=info msg="Update check succeeded" duration=39.06652ms
+logger=cleanup t=2025-04-28T23:37:16.296379013Z level=info msg="Completed cleanup jobs" duration=1.851033ms
+logger=grafana.update.checker t=2025-04-28T23:37:16.578633723Z level=info msg="Update check succeeded" duration=21.245773ms
+logger=plugins.update.checker t=2025-04-28T23:37:16.636410522Z level=info msg="Update check succeeded" duration=62.760544ms
+logger=infra.usagestats t=2025-04-28T23:37:59.282587662Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-28T23:47:16.296238198Z level=info msg="Completed cleanup jobs" duration=1.765747ms
+logger=grafana.update.checker t=2025-04-28T23:47:16.571189851Z level=info msg="Update check succeeded" duration=13.34144ms
+logger=plugins.update.checker t=2025-04-28T23:47:16.615486636Z level=info msg="Update check succeeded" duration=41.22997ms
+logger=context userId=0 orgId=0 uname= t=2025-04-28T23:54:22.554451954Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=203.55.131.5 time_ms=0 duration=668.421µs size=29 referer= handler=/
+logger=http.server t=2025-04-28T23:54:22.68268011Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-28T23:57:16.297169819Z level=info msg="Completed cleanup jobs" duration=2.723917ms
+logger=grafana.update.checker t=2025-04-28T23:57:16.572364805Z level=info msg="Update check succeeded" duration=14.680682ms
+logger=plugins.update.checker t=2025-04-28T23:57:16.619507693Z level=info msg="Update check succeeded" duration=45.060411ms

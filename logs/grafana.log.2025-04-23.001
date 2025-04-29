@@ -1,0 +1,591 @@
+logger=context userId=0 orgId=0 uname= t=2025-04-22T00:03:48.375430595Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.255 time_ms=0 duration=127.004µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T00:03:48.649996378Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=server t=2025-04-22T00:08:05.921992271Z level=info msg="Shutdown started" reason="System signal: terminated"
+logger=ticker t=2025-04-22T00:08:05.923625755Z level=info msg=stopped last_tick=2025-04-22T00:08:00Z
+logger=tracing t=2025-04-22T00:08:05.92794038Z level=info msg="Closing tracing"
+logger=settings t=2025-04-22T00:08:06.27427605Z level=info msg="Starting Grafana" version=10.2.3 commit=1e84fede543 branch=HEAD compiled=2023-12-18T14:03:01Z
+logger=settings t=2025-04-22T00:08:06.274712012Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/defaults.ini
+logger=settings t=2025-04-22T00:08:06.274748989Z level=info msg="Config loaded from" file=/home/mike/grafana-white-label/conf/custom.ini
+logger=settings t=2025-04-22T00:08:06.274764105Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_DATA=/home/mike/grafana-white-label/data"
+logger=settings t=2025-04-22T00:08:06.274777641Z level=info msg="Config overridden from Environment variable" var="GF_PATHS_LOGS=/home/mike/grafana-white-label/logs"
+logger=settings t=2025-04-22T00:08:06.27479137Z level=info msg=Target target=[all]
+logger=settings t=2025-04-22T00:08:06.274840135Z level=info msg="Path Home" path=/home/mike/grafana-white-label
+logger=settings t=2025-04-22T00:08:06.274854563Z level=info msg="Path Data" path=/home/mike/grafana-white-label/data
+logger=settings t=2025-04-22T00:08:06.27487765Z level=info msg="Path Logs" path=/home/mike/grafana-white-label/logs
+logger=settings t=2025-04-22T00:08:06.274890938Z level=info msg="Path Plugins" path=/home/mike/grafana-white-label/data/plugins
+logger=settings t=2025-04-22T00:08:06.27490441Z level=info msg="Path Provisioning" path=/home/mike/grafana-white-label/conf/provisioning
+logger=settings t=2025-04-22T00:08:06.274920045Z level=info msg="App mode production"
+logger=sqlstore t=2025-04-22T00:08:06.275749352Z level=info msg="Connecting to DB" dbtype=sqlite3
+logger=migrator t=2025-04-22T00:08:06.278567823Z level=info msg="Starting DB migrations"
+logger=migrator t=2025-04-22T00:08:06.292299099Z level=info msg="migrations completed" performed=0 skipped=523 duration=2.314688ms
+logger=secrets t=2025-04-22T00:08:06.29673124Z level=info msg="Envelope encryption state" enabled=true currentprovider=secretKey.v1
+logger=plugin.store t=2025-04-22T00:08:06.320224455Z level=info msg="Loading plugins..."
+logger=plugins.validator.module t=2025-04-22T00:08:06.42000068Z level=warn msg="Plugin missing module.js" pluginId=input warning="Missing module.js, If you loaded this plugin from git, make sure to compile it."
+logger=plugins.registration t=2025-04-22T00:08:06.420071295Z level=info msg="Plugin registered" pluginId=input
+logger=plugins.registration t=2025-04-22T00:08:06.486946122Z level=info msg="Plugin registered" pluginId=marcusolsson-json-datasource
+logger=plugins.registration t=2025-04-22T00:08:06.487101775Z level=info msg="Plugin registered" pluginId=simpod-json-datasource
+logger=plugin.store t=2025-04-22T00:08:06.487151117Z level=info msg="Plugins loaded" count=58 duration=166.928156ms
+logger=query_data t=2025-04-22T00:08:06.509893097Z level=info msg="Query Service initialization"
+logger=live.push_http t=2025-04-22T00:08:06.515756913Z level=info msg="Live Push Gateway initialization"
+logger=ngalert.migration t=2025-04-22T00:08:06.522949778Z level=info msg=Starting
+logger=ngalert.migration CurrentType=UnifiedAlerting DesiredType=UnifiedAlerting CleanOnDowngrade=false CleanOnUpgrade=false t=2025-04-22T00:08:06.523471289Z level=info msg="Migration already complete"
+logger=infra.usagestats.collector t=2025-04-22T00:08:06.550347227Z level=info msg="registering usage stat providers" usageStatsProvidersLen=2
+logger=provisioning.alerting t=2025-04-22T00:08:06.555374394Z level=info msg="starting to provision alerting"
+logger=provisioning.alerting t=2025-04-22T00:08:06.555446338Z level=info msg="finished to provision alerting"
+logger=ngalert.state.manager t=2025-04-22T00:08:06.557383575Z level=info msg="Warming state cache for startup"
+logger=ngalert.state.manager t=2025-04-22T00:08:06.557918351Z level=info msg="State cache has been initialized" states=0 duration=531.238µs
+logger=ngalert.scheduler t=2025-04-22T00:08:06.557980905Z level=info msg="Starting scheduler" tickInterval=10s
+logger=ticker t=2025-04-22T00:08:06.558065005Z level=info msg=starting first_tick=2025-04-22T00:08:10Z
+logger=ngalert.multiorg.alertmanager t=2025-04-22T00:08:06.566536697Z level=info msg="Starting MultiOrg Alertmanager"
+logger=grafanaStorageLogger t=2025-04-22T00:08:06.571177827Z level=info msg="Storage starting"
+logger=http.server t=2025-04-22T00:08:06.573359259Z level=info msg="HTTP Server Listen" address=[::]:3000 protocol=http subUrl= socket=
+logger=grafana.update.checker t=2025-04-22T00:08:06.617872577Z level=info msg="Update check succeeded" duration=56.841623ms
+logger=plugins.update.checker t=2025-04-22T00:08:06.636465298Z level=info msg="Update check succeeded" duration=74.666408ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:08:07.260469517Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=136.50.200.208 time_ms=3 duration=3.344093ms size=0 referer= handler=/api/live/ws
+logger=infra.usagestats t=2025-04-22T00:09:19.560389393Z level=info msg="Usage stats are ready to report"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:09:30.045674947Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=136.50.200.208 time_ms=1 duration=1.316783ms size=0 referer= handler=/api/live/ws
+logger=live t=2025-04-22T00:10:59.960982441Z level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb address=grafana/dashboard/uid/b595cc31-9678-483e-ae4f-ab44c4e18abb
+logger=live t=2025-04-22T00:11:00.252118065Z level=info msg="Invalid channel ID" user=1 client=d614a3a4-f3ab-4b3e-a38f-32954aeff969 channel="1/grafana/dashboard/uid/Not found"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:00.262404905Z level=error msg="Invalid dashboard UID in annotation request" error="Dashboard not found" remote_addr=136.50.200.208 traceID=
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:00.262516574Z level=info msg="Request Completed" method=GET path=/api/annotations status=400 remote_addr=136.50.200.208 time_ms=0 duration=989.068µs size=70 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1" handler=/api/annotations
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:29.245963188Z level=error msg="Dashboard not found" error="Dashboard not found" remote_addr=136.50.200.208 traceID=
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:29.246118119Z level=info msg="Request Completed" method=GET path=/api/dashboards/uid/undefined status=404 remote_addr=136.50.200.208 time_ms=2 duration=2.436893ms size=46 referer=http://itsaenergy.com:3000/dashboard/import handler=/api/dashboards/uid/:uid
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:34.329016609Z level=error msg="Dashboard not found" error="Dashboard not found" remote_addr=136.50.200.208 traceID=
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:11:34.32916711Z level=info msg="Request Completed" method=GET path=/api/dashboards/uid/undefined status=404 remote_addr=136.50.200.208 time_ms=1 duration=1.0874ms size=46 referer=http://itsaenergy.com:3000/dashboard/import handler=/api/dashboards/uid/:uid
+logger=live t=2025-04-22T00:11:34.410032324Z level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/e644530a-a4b7-4789-bc23-5b1f02f06af6 address=grafana/dashboard/uid/e644530a-a4b7-4789-bc23-5b1f02f06af6
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:02.045377905Z level=error msg="Dashboard not found" error="Dashboard not found" remote_addr=136.50.200.208 traceID=
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:02.045531788Z level=info msg="Request Completed" method=GET path=/api/dashboards/uid/undefined status=404 remote_addr=136.50.200.208 time_ms=2 duration=2.605572ms size=46 referer=http://itsaenergy.com:3000/dashboard/import handler=/api/dashboards/uid/:uid
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:09.126731267Z level=error msg="Dashboard not found" error="Dashboard not found" remote_addr=136.50.200.208 traceID=
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:09.126880946Z level=info msg="Request Completed" method=GET path=/api/dashboards/uid/undefined status=404 remote_addr=136.50.200.208 time_ms=1 duration=1.205525ms size=46 referer=http://itsaenergy.com:3000/dashboard/import handler=/api/dashboards/uid/:uid
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:20.206405891Z level=info msg="Request Completed" method=POST path=/api/datasources/proxy/uid/b7180ab4-ff1a-4733-aaf1-5f434a09c8f1/metrics status=404 remote_addr=136.50.200.208 time_ms=61 duration=61.682241ms size=22 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?editPanel=13&orgId=1&refresh=5s" handler=/api/datasources/proxy/uid/:uid/*
+logger=data-proxy-log userId=1 orgId=1 uname=admin path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6/metrics remote_addr=136.50.200.208 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s&editPanel=13" t=2025-04-22T00:12:29.375075425Z level=error msg="Proxy request failed" err="dial tcp 127.0.0.1:8080: connect: connection refused"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:12:29.375227894Z level=error msg="Request Completed" method=POST path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6/metrics status=502 remote_addr=136.50.200.208 time_ms=18 duration=18.136787ms size=0 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?editPanel=13&orgId=1&refresh=5s" handler=/api/datasources/proxy/uid/:uid/*
+logger=infra.usagestats t=2025-04-22T00:13:52.039076425Z level=info msg="Sent usage stats" duration=38.144442ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:14:24.164109075Z level=info msg="Request Completed" method=POST path=/api/datasources/proxy/uid/b7180ab4-ff1a-4733-aaf1-5f434a09c8f1/metrics status=404 remote_addr=136.50.200.208 time_ms=13 duration=13.341858ms size=22 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?editPanel=13&orgId=1&refresh=5s" handler=/api/datasources/proxy/uid/:uid/*
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:16:41.994362504Z level=info msg="Request Completed" method=GET path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6 status=404 remote_addr=136.50.200.208 time_ms=36 duration=36.474889ms size=22 referer=http://itsaenergy.com:3000/connections/datasources/edit/adbdc715-0d9f-4efe-b1bc-da703103dee6 handler=/api/datasources/proxy/uid/:uid
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:17:24.970752684Z level=info msg="Request Completed" method=POST path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6/metrics status=404 remote_addr=136.50.200.208 time_ms=4 duration=4.889895ms size=22 referer="http://itsaenergy.com:3000/explore?left=%7B%22datasource%22%3A%22simpod-json-datasource%22%2C%22context%22%3A%22explore%22%7D" handler=/api/datasources/proxy/uid/:uid/*
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:17:33.417180106Z level=info msg="Request Completed" method=POST path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6/metrics status=404 remote_addr=136.50.200.208 time_ms=6 duration=6.371159ms size=22 referer="http://itsaenergy.com:3000/explore?orgId=1&panes=%7B%22-Ef%22%3A%7B%22datasource%22%3A%22adbdc715-0d9f-4efe-b1bc-da703103dee6%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22datasource%22%3A%7B%22type%22%3A%22simpod-json-datasource%22%2C%22uid%22%3A%22adbdc715-0d9f-4efe-b1bc-da703103dee6%22%7D%2C%22editorMode%22%3A%22code%22%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-6h%22%2C%22to%22%3A%22now%22%7D%7D%7D&schemaVersion=1" handler=/api/datasources/proxy/uid/:uid/*
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T00:17:35.225917912Z level=info msg="Request Completed" method=POST path=/api/datasources/proxy/uid/adbdc715-0d9f-4efe-b1bc-da703103dee6/metrics status=404 remote_addr=136.50.200.208 time_ms=5 duration=5.942802ms size=22 referer="http://itsaenergy.com:3000/explore?orgId=1&panes=%7B%22-Ef%22%3A%7B%22datasource%22%3A%22adbdc715-0d9f-4efe-b1bc-da703103dee6%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22datasource%22%3A%7B%22type%22%3A%22simpod-json-datasource%22%2C%22uid%22%3A%22adbdc715-0d9f-4efe-b1bc-da703103dee6%22%7D%2C%22editorMode%22%3A%22code%22%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-6h%22%2C%22to%22%3A%22now%22%7D%7D%7D&schemaVersion=1" handler=/api/datasources/proxy/uid/:uid/*
+logger=cleanup t=2025-04-22T00:18:06.560111996Z level=info msg="Completed cleanup jobs" duration=1.81258ms
+logger=grafana.update.checker t=2025-04-22T00:18:06.634585112Z level=info msg="Update check succeeded" duration=15.704967ms
+logger=plugins.update.checker t=2025-04-22T00:18:06.669346417Z level=info msg="Update check succeeded" duration=31.729378ms
+logger=cleanup t=2025-04-22T00:28:06.560208753Z level=info msg="Completed cleanup jobs" duration=1.902472ms
+logger=grafana.update.checker t=2025-04-22T00:28:06.640067093Z level=info msg="Update check succeeded" duration=21.976271ms
+logger=plugins.update.checker t=2025-04-22T00:28:06.679296527Z level=info msg="Update check succeeded" duration=41.570939ms
+logger=cleanup t=2025-04-22T00:38:06.570452347Z level=info msg="Completed cleanup jobs" duration=11.395816ms
+logger=grafana.update.checker t=2025-04-22T00:38:06.636081563Z level=info msg="Update check succeeded" duration=17.300815ms
+logger=plugins.update.checker t=2025-04-22T00:38:06.676049949Z level=info msg="Update check succeeded" duration=38.915203ms
+logger=infra.usagestats t=2025-04-22T00:39:19.58843082Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T00:48:06.563230877Z level=info msg="Completed cleanup jobs" duration=4.466989ms
+logger=grafana.update.checker t=2025-04-22T00:48:06.642723298Z level=info msg="Update check succeeded" duration=23.630916ms
+logger=plugins.update.checker t=2025-04-22T00:48:06.667777534Z level=info msg="Update check succeeded" duration=29.325319ms
+logger=cleanup t=2025-04-22T00:58:06.56068731Z level=info msg="Completed cleanup jobs" duration=2.12694ms
+logger=grafana.update.checker t=2025-04-22T00:58:06.63677447Z level=info msg="Update check succeeded" duration=17.956975ms
+logger=plugins.update.checker t=2025-04-22T00:58:06.676239832Z level=info msg="Update check succeeded" duration=39.657064ms
+logger=authn.service t=2025-04-22T00:58:39.247500276Z level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T00:58:39.248283502Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=174.197.64.10 time_ms=3 duration=3.846205ms size=29 referer= handler=/
+logger=authn.service t=2025-04-22T00:58:39.313441972Z level=warn msg="Failed to authenticate request" client=auth.client.session error="user token not found"
+logger=http.server t=2025-04-22T00:58:39.320161116Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-22T01:08:06.562946377Z level=info msg="Completed cleanup jobs" duration=3.549551ms
+logger=grafana.update.checker t=2025-04-22T01:08:06.632791743Z level=info msg="Update check succeeded" duration=14.362913ms
+logger=plugins.update.checker t=2025-04-22T01:08:06.671173622Z level=info msg="Update check succeeded" duration=34.171554ms
+logger=infra.usagestats t=2025-04-22T01:09:19.564554165Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T01:18:06.560318177Z level=info msg="Completed cleanup jobs" duration=1.986874ms
+logger=plugins.update.checker t=2025-04-22T01:18:06.683857582Z level=info msg="Update check succeeded" duration=46.674524ms
+logger=grafana.update.checker t=2025-04-22T01:18:06.711278617Z level=info msg="Update check succeeded" duration=92.685938ms
+logger=cleanup t=2025-04-22T01:28:06.560594812Z level=info msg="Completed cleanup jobs" duration=2.048378ms
+logger=grafana.update.checker t=2025-04-22T01:28:06.633815021Z level=info msg="Update check succeeded" duration=15.120373ms
+logger=plugins.update.checker t=2025-04-22T01:28:06.669136647Z level=info msg="Update check succeeded" duration=32.314681ms
+logger=cleanup t=2025-04-22T01:38:06.559975897Z level=info msg="Completed cleanup jobs" duration=1.700767ms
+logger=grafana.update.checker t=2025-04-22T01:38:06.641389239Z level=info msg="Update check succeeded" duration=22.362216ms
+logger=plugins.update.checker t=2025-04-22T01:38:06.676857466Z level=info msg="Update check succeeded" duration=38.502235ms
+logger=infra.usagestats t=2025-04-22T01:39:19.564664887Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T01:48:06.560422869Z level=info msg="Completed cleanup jobs" duration=2.173751ms
+logger=grafana.update.checker t=2025-04-22T01:48:06.632014924Z level=info msg="Update check succeeded" duration=13.9673ms
+logger=plugins.update.checker t=2025-04-22T01:48:06.673480533Z level=info msg="Update check succeeded" duration=36.351204ms
+logger=cleanup t=2025-04-22T01:58:06.560749711Z level=info msg="Completed cleanup jobs" duration=2.410567ms
+logger=grafana.update.checker t=2025-04-22T01:58:06.632561688Z level=info msg="Update check succeeded" duration=13.977559ms
+logger=plugins.update.checker t=2025-04-22T01:58:06.677093658Z level=info msg="Update check succeeded" duration=39.469044ms
+logger=cleanup t=2025-04-22T02:08:06.560280127Z level=info msg="Completed cleanup jobs" duration=1.617306ms
+logger=grafana.update.checker t=2025-04-22T02:08:06.639300423Z level=info msg="Update check succeeded" duration=20.316535ms
+logger=plugins.update.checker t=2025-04-22T02:08:06.671501763Z level=info msg="Update check succeeded" duration=34.906157ms
+logger=infra.usagestats t=2025-04-22T02:09:19.563910589Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T02:18:06.560607794Z level=info msg="Completed cleanup jobs" duration=1.737171ms
+logger=grafana.update.checker t=2025-04-22T02:18:06.635522854Z level=info msg="Update check succeeded" duration=16.905698ms
+logger=plugins.update.checker t=2025-04-22T02:18:06.671690084Z level=info msg="Update check succeeded" duration=34.127014ms
+logger=cleanup t=2025-04-22T02:28:06.560625841Z level=info msg="Completed cleanup jobs" duration=2.264883ms
+logger=grafana.update.checker t=2025-04-22T02:28:06.651460505Z level=info msg="Update check succeeded" duration=32.80456ms
+logger=plugins.update.checker t=2025-04-22T02:28:06.674625391Z level=info msg="Update check succeeded" duration=37.387998ms
+logger=cleanup t=2025-04-22T02:38:06.560390704Z level=info msg="Completed cleanup jobs" duration=1.572862ms
+logger=grafana.update.checker t=2025-04-22T02:38:06.641910818Z level=info msg="Update check succeeded" duration=23.455007ms
+logger=plugins.update.checker t=2025-04-22T02:38:06.67724174Z level=info msg="Update check succeeded" duration=40.549824ms
+logger=infra.usagestats t=2025-04-22T02:39:19.564920859Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T02:48:06.562502257Z level=info msg="Completed cleanup jobs" duration=3.789467ms
+logger=grafana.update.checker t=2025-04-22T02:48:06.633622858Z level=info msg="Update check succeeded" duration=14.826526ms
+logger=plugins.update.checker t=2025-04-22T02:48:06.670564435Z level=info msg="Update check succeeded" duration=33.869864ms
+logger=cleanup t=2025-04-22T02:58:06.561326189Z level=info msg="Completed cleanup jobs" duration=2.012326ms
+logger=grafana.update.checker t=2025-04-22T02:58:06.634897974Z level=info msg="Update check succeeded" duration=16.839973ms
+logger=plugins.update.checker t=2025-04-22T02:58:06.712651603Z level=info msg="Update check succeeded" duration=75.729721ms
+logger=cleanup t=2025-04-22T03:08:06.56223676Z level=info msg="Completed cleanup jobs" duration=3.090581ms
+logger=grafana.update.checker t=2025-04-22T03:08:06.632742145Z level=info msg="Update check succeeded" duration=14.25915ms
+logger=plugins.update.checker t=2025-04-22T03:08:06.670906023Z level=info msg="Update check succeeded" duration=34.158265ms
+logger=infra.usagestats t=2025-04-22T03:09:19.564765643Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T03:18:06.561929077Z level=info msg="Completed cleanup jobs" duration=2.722345ms
+logger=grafana.update.checker t=2025-04-22T03:18:06.638284884Z level=info msg="Update check succeeded" duration=20.217464ms
+logger=plugins.update.checker t=2025-04-22T03:18:06.670444842Z level=info msg="Update check succeeded" duration=33.538773ms
+logger=cleanup t=2025-04-22T03:28:06.56197526Z level=info msg="Completed cleanup jobs" duration=3.440151ms
+logger=grafana.update.checker t=2025-04-22T03:28:06.633801284Z level=info msg="Update check succeeded" duration=15.195668ms
+logger=plugins.update.checker t=2025-04-22T03:28:06.671659669Z level=info msg="Update check succeeded" duration=34.876713ms
+logger=cleanup t=2025-04-22T03:38:06.560236641Z level=info msg="Completed cleanup jobs" duration=1.880547ms
+logger=grafana.update.checker t=2025-04-22T03:38:06.633424353Z level=info msg="Update check succeeded" duration=14.480265ms
+logger=plugins.update.checker t=2025-04-22T03:38:06.672707625Z level=info msg="Update check succeeded" duration=35.222487ms
+logger=infra.usagestats t=2025-04-22T03:39:19.564332705Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T03:48:06.56266347Z level=info msg="Completed cleanup jobs" duration=3.622101ms
+logger=grafana.update.checker t=2025-04-22T03:48:06.633624275Z level=info msg="Update check succeeded" duration=15.526281ms
+logger=plugins.update.checker t=2025-04-22T03:48:06.671897825Z level=info msg="Update check succeeded" duration=34.305883ms
+logger=cleanup t=2025-04-22T03:58:06.560446503Z level=info msg="Completed cleanup jobs" duration=2.06096ms
+logger=grafana.update.checker t=2025-04-22T03:58:06.638895503Z level=info msg="Update check succeeded" duration=20.609611ms
+logger=plugins.update.checker t=2025-04-22T03:58:06.672355306Z level=info msg="Update check succeeded" duration=35.693423ms
+logger=cleanup t=2025-04-22T04:08:06.561409216Z level=info msg="Completed cleanup jobs" duration=3.112049ms
+logger=grafana.update.checker t=2025-04-22T04:08:06.633405526Z level=info msg="Update check succeeded" duration=14.712333ms
+logger=plugins.update.checker t=2025-04-22T04:08:06.677389016Z level=info msg="Update check succeeded" duration=40.052073ms
+logger=infra.usagestats t=2025-04-22T04:09:19.566495321Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T04:18:06.561091149Z level=info msg="Completed cleanup jobs" duration=1.915931ms
+logger=grafana.update.checker t=2025-04-22T04:18:06.63268426Z level=info msg="Update check succeeded" duration=13.779649ms
+logger=plugins.update.checker t=2025-04-22T04:18:06.67314924Z level=info msg="Update check succeeded" duration=36.466651ms
+logger=cleanup t=2025-04-22T04:28:06.563101584Z level=info msg="Completed cleanup jobs" duration=4.796845ms
+logger=grafana.update.checker t=2025-04-22T04:28:06.644100534Z level=info msg="Update check succeeded" duration=25.681345ms
+logger=plugins.update.checker t=2025-04-22T04:28:06.671987063Z level=info msg="Update check succeeded" duration=34.314154ms
+logger=cleanup t=2025-04-22T04:38:06.560669175Z level=info msg="Completed cleanup jobs" duration=2.392718ms
+logger=grafana.update.checker t=2025-04-22T04:38:06.633949545Z level=info msg="Update check succeeded" duration=15.576973ms
+logger=plugins.update.checker t=2025-04-22T04:38:06.673418035Z level=info msg="Update check succeeded" duration=36.309512ms
+logger=infra.usagestats t=2025-04-22T04:39:19.564797112Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T04:48:06.560467058Z level=info msg="Completed cleanup jobs" duration=1.784146ms
+logger=grafana.update.checker t=2025-04-22T04:48:06.63301907Z level=info msg="Update check succeeded" duration=14.609532ms
+logger=plugins.update.checker t=2025-04-22T04:48:06.674161848Z level=info msg="Update check succeeded" duration=37.058474ms
+logger=cleanup t=2025-04-22T04:58:06.561601106Z level=info msg="Completed cleanup jobs" duration=2.588263ms
+logger=grafana.update.checker t=2025-04-22T04:58:06.635084687Z level=info msg="Update check succeeded" duration=16.052198ms
+logger=plugins.update.checker t=2025-04-22T04:58:06.670227335Z level=info msg="Update check succeeded" duration=33.060129ms
+logger=cleanup t=2025-04-22T05:08:06.561307581Z level=info msg="Completed cleanup jobs" duration=2.034323ms
+logger=grafana.update.checker t=2025-04-22T05:08:06.633418597Z level=info msg="Update check succeeded" duration=14.714677ms
+logger=plugins.update.checker t=2025-04-22T05:08:06.670886094Z level=info msg="Update check succeeded" duration=33.659914ms
+logger=infra.usagestats t=2025-04-22T05:09:19.564589352Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T05:18:06.560987322Z level=info msg="Completed cleanup jobs" duration=2.415198ms
+logger=grafana.update.checker t=2025-04-22T05:18:06.63207705Z level=info msg="Update check succeeded" duration=13.565564ms
+logger=plugins.update.checker t=2025-04-22T05:18:06.678604516Z level=info msg="Update check succeeded" duration=41.440832ms
+logger=cleanup t=2025-04-22T05:28:06.562303927Z level=info msg="Completed cleanup jobs" duration=3.125507ms
+logger=grafana.update.checker t=2025-04-22T05:28:06.631699539Z level=info msg="Update check succeeded" duration=12.704396ms
+logger=plugins.update.checker t=2025-04-22T05:28:06.672327444Z level=info msg="Update check succeeded" duration=35.686185ms
+logger=cleanup t=2025-04-22T05:38:06.561833171Z level=info msg="Completed cleanup jobs" duration=3.08427ms
+logger=grafana.update.checker t=2025-04-22T05:38:06.634751064Z level=info msg="Update check succeeded" duration=16.227236ms
+logger=plugins.update.checker t=2025-04-22T05:38:06.671858715Z level=info msg="Update check succeeded" duration=34.196792ms
+logger=infra.usagestats t=2025-04-22T05:39:19.563637171Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T05:47:53.636146387Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=65.49.1.145 time_ms=1 duration=1.695523ms size=29 referer= handler=/
+logger=cleanup t=2025-04-22T05:48:06.560733915Z level=info msg="Completed cleanup jobs" duration=1.787363ms
+logger=grafana.update.checker t=2025-04-22T05:48:06.633843883Z level=info msg="Update check succeeded" duration=14.964274ms
+logger=plugins.update.checker t=2025-04-22T05:48:06.673083738Z level=info msg="Update check succeeded" duration=36.228428ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T05:48:17.052500316Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=65.49.1.148 time_ms=0 duration=191.061µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T05:48:17.101996308Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T05:48:42.861706751Z level=info msg="Request Completed" method=GET path=/favicon.ico status=302 remote_addr=65.49.1.148 time_ms=0 duration=271.674µs size=29 referer= handler=public-assets
+logger=cleanup t=2025-04-22T05:58:06.56065908Z level=info msg="Completed cleanup jobs" duration=1.950228ms
+logger=grafana.update.checker t=2025-04-22T05:58:06.632474732Z level=info msg="Update check succeeded" duration=13.682659ms
+logger=plugins.update.checker t=2025-04-22T05:58:06.680002152Z level=info msg="Update check succeeded" duration=42.505854ms
+logger=cleanup t=2025-04-22T06:08:06.560231872Z level=info msg="Completed cleanup jobs" duration=1.983496ms
+logger=grafana.update.checker t=2025-04-22T06:08:06.631404564Z level=info msg="Update check succeeded" duration=12.336729ms
+logger=plugins.update.checker t=2025-04-22T06:08:06.671390358Z level=info msg="Update check succeeded" duration=33.909049ms
+logger=infra.usagestats t=2025-04-22T06:09:19.564403602Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T06:18:06.561539717Z level=info msg="Completed cleanup jobs" duration=2.260546ms
+logger=grafana.update.checker t=2025-04-22T06:18:06.630289635Z level=info msg="Update check succeeded" duration=12.215099ms
+logger=plugins.update.checker t=2025-04-22T06:18:06.673536411Z level=info msg="Update check succeeded" duration=36.122567ms
+logger=cleanup t=2025-04-22T06:28:06.561002877Z level=info msg="Completed cleanup jobs" duration=2.306679ms
+logger=grafana.update.checker t=2025-04-22T06:28:06.631708725Z level=info msg="Update check succeeded" duration=13.087184ms
+logger=plugins.update.checker t=2025-04-22T06:28:06.670475307Z level=info msg="Update check succeeded" duration=33.647791ms
+logger=cleanup t=2025-04-22T06:38:06.561717488Z level=info msg="Completed cleanup jobs" duration=2.709531ms
+logger=grafana.update.checker t=2025-04-22T06:38:06.631342296Z level=info msg="Update check succeeded" duration=12.639257ms
+logger=plugins.update.checker t=2025-04-22T06:38:06.672197958Z level=info msg="Update check succeeded" duration=34.814134ms
+logger=infra.usagestats t=2025-04-22T06:39:19.566076886Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T06:48:06.560870354Z level=info msg="Completed cleanup jobs" duration=2.247904ms
+logger=grafana.update.checker t=2025-04-22T06:48:06.638622385Z level=info msg="Update check succeeded" duration=19.594351ms
+logger=plugins.update.checker t=2025-04-22T06:48:06.676322336Z level=info msg="Update check succeeded" duration=39.347335ms
+logger=cleanup t=2025-04-22T06:58:06.561358653Z level=info msg="Completed cleanup jobs" duration=2.340201ms
+logger=grafana.update.checker t=2025-04-22T06:58:06.631484239Z level=info msg="Update check succeeded" duration=12.62079ms
+logger=plugins.update.checker t=2025-04-22T06:58:06.677013819Z level=info msg="Update check succeeded" duration=39.426019ms
+logger=cleanup t=2025-04-22T07:08:06.563019328Z level=info msg="Completed cleanup jobs" duration=3.717029ms
+logger=grafana.update.checker t=2025-04-22T07:08:06.631584212Z level=info msg="Update check succeeded" duration=12.563442ms
+logger=plugins.update.checker t=2025-04-22T07:08:06.690108784Z level=info msg="Update check succeeded" duration=52.538459ms
+logger=infra.usagestats t=2025-04-22T07:09:19.563053131Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T07:18:06.561123289Z level=info msg="Completed cleanup jobs" duration=2.076637ms
+logger=grafana.update.checker t=2025-04-22T07:18:06.631933288Z level=info msg="Update check succeeded" duration=13.859708ms
+logger=plugins.update.checker t=2025-04-22T07:18:06.671663594Z level=info msg="Update check succeeded" duration=34.656563ms
+logger=cleanup t=2025-04-22T07:28:06.561043868Z level=info msg="Completed cleanup jobs" duration=1.885426ms
+logger=grafana.update.checker t=2025-04-22T07:28:06.631073635Z level=info msg="Update check succeeded" duration=12.187238ms
+logger=plugins.update.checker t=2025-04-22T07:28:06.670098124Z level=info msg="Update check succeeded" duration=32.894469ms
+logger=cleanup t=2025-04-22T07:38:06.561766403Z level=info msg="Completed cleanup jobs" duration=3.103815ms
+logger=grafana.update.checker t=2025-04-22T07:38:06.632998461Z level=info msg="Update check succeeded" duration=13.9323ms
+logger=plugins.update.checker t=2025-04-22T07:38:06.673047648Z level=info msg="Update check succeeded" duration=35.938257ms
+logger=infra.usagestats t=2025-04-22T07:39:19.563046324Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T07:48:06.560863202Z level=info msg="Completed cleanup jobs" duration=1.950671ms
+logger=grafana.update.checker t=2025-04-22T07:48:06.632009551Z level=info msg="Update check succeeded" duration=12.969354ms
+logger=plugins.update.checker t=2025-04-22T07:48:06.669123022Z level=info msg="Update check succeeded" duration=32.13193ms
+logger=cleanup t=2025-04-22T07:58:06.561302817Z level=info msg="Completed cleanup jobs" duration=1.99869ms
+logger=grafana.update.checker t=2025-04-22T07:58:06.633114369Z level=info msg="Update check succeeded" duration=15.058108ms
+logger=plugins.update.checker t=2025-04-22T07:58:06.678477683Z level=info msg="Update check succeeded" duration=41.23691ms
+logger=cleanup t=2025-04-22T08:08:06.563199648Z level=info msg="Completed cleanup jobs" duration=4.915219ms
+logger=grafana.update.checker t=2025-04-22T08:08:06.631197311Z level=info msg="Update check succeeded" duration=12.657458ms
+logger=plugins.update.checker t=2025-04-22T08:08:06.698493639Z level=info msg="Update check succeeded" duration=61.170432ms
+logger=infra.usagestats t=2025-04-22T08:09:19.562886021Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T08:18:06.560852779Z level=info msg="Completed cleanup jobs" duration=2.014418ms
+logger=grafana.update.checker t=2025-04-22T08:18:06.631988508Z level=info msg="Update check succeeded" duration=13.268261ms
+logger=plugins.update.checker t=2025-04-22T08:18:06.673147232Z level=info msg="Update check succeeded" duration=36.035519ms
+logger=cleanup t=2025-04-22T08:28:06.561976082Z level=info msg="Completed cleanup jobs" duration=2.811214ms
+logger=grafana.update.checker t=2025-04-22T08:28:06.632131263Z level=info msg="Update check succeeded" duration=14.107383ms
+logger=plugins.update.checker t=2025-04-22T08:28:06.671866719Z level=info msg="Update check succeeded" duration=34.53059ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T08:37:51.802114785Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=195.178.110.224 time_ms=1 duration=1.663951ms size=29 referer= handler=/
+logger=cleanup t=2025-04-22T08:38:06.560573772Z level=info msg="Completed cleanup jobs" duration=2.023879ms
+logger=grafana.update.checker t=2025-04-22T08:38:06.631315074Z level=info msg="Update check succeeded" duration=12.957042ms
+logger=plugins.update.checker t=2025-04-22T08:38:06.669036591Z level=info msg="Update check succeeded" duration=31.880547ms
+logger=infra.usagestats t=2025-04-22T08:39:19.565532248Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T08:48:06.562344694Z level=info msg="Completed cleanup jobs" duration=3.053094ms
+logger=grafana.update.checker t=2025-04-22T08:48:06.6311241Z level=info msg="Update check succeeded" duration=13.120547ms
+logger=plugins.update.checker t=2025-04-22T08:48:06.671276041Z level=info msg="Update check succeeded" duration=34.049611ms
+logger=cleanup t=2025-04-22T08:58:06.560855422Z level=info msg="Completed cleanup jobs" duration=2.307909ms
+logger=grafana.update.checker t=2025-04-22T08:58:06.631996341Z level=info msg="Update check succeeded" duration=13.448954ms
+logger=plugins.update.checker t=2025-04-22T08:58:06.666485937Z level=info msg="Update check succeeded" duration=29.312093ms
+logger=cleanup t=2025-04-22T09:08:06.561041912Z level=info msg="Completed cleanup jobs" duration=2.195919ms
+logger=grafana.update.checker t=2025-04-22T09:08:06.639872427Z level=info msg="Update check succeeded" duration=20.892156ms
+logger=plugins.update.checker t=2025-04-22T09:08:06.688326906Z level=info msg="Update check succeeded" duration=51.45552ms
+logger=infra.usagestats t=2025-04-22T09:09:19.564694194Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T09:18:06.560940782Z level=info msg="Completed cleanup jobs" duration=1.996419ms
+logger=grafana.update.checker t=2025-04-22T09:18:06.635630554Z level=info msg="Update check succeeded" duration=16.801015ms
+logger=plugins.update.checker t=2025-04-22T09:18:06.671891967Z level=info msg="Update check succeeded" duration=35.30193ms
+logger=cleanup t=2025-04-22T09:28:06.561384624Z level=info msg="Completed cleanup jobs" duration=2.100458ms
+logger=grafana.update.checker t=2025-04-22T09:28:06.631331463Z level=info msg="Update check succeeded" duration=13.318362ms
+logger=plugins.update.checker t=2025-04-22T09:28:06.677319462Z level=info msg="Update check succeeded" duration=39.977365ms
+logger=cleanup t=2025-04-22T09:38:06.560667669Z level=info msg="Completed cleanup jobs" duration=1.874228ms
+logger=grafana.update.checker t=2025-04-22T09:38:06.631109898Z level=info msg="Update check succeeded" duration=12.686446ms
+logger=plugins.update.checker t=2025-04-22T09:38:06.669828113Z level=info msg="Update check succeeded" duration=32.640164ms
+logger=infra.usagestats t=2025-04-22T09:39:19.564925939Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T09:40:36.104871406Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=71.6.232.24 time_ms=0 duration=216.477µs size=29 referer= handler=/
+logger=cleanup t=2025-04-22T09:48:06.560891642Z level=info msg="Completed cleanup jobs" duration=2.310267ms
+logger=grafana.update.checker t=2025-04-22T09:48:06.631746795Z level=info msg="Update check succeeded" duration=12.64575ms
+logger=plugins.update.checker t=2025-04-22T09:48:06.67110054Z level=info msg="Update check succeeded" duration=34.204976ms
+logger=cleanup t=2025-04-22T09:58:06.560144868Z level=info msg="Completed cleanup jobs" duration=1.785333ms
+logger=grafana.update.checker t=2025-04-22T09:58:06.631685059Z level=info msg="Update check succeeded" duration=13.102871ms
+logger=plugins.update.checker t=2025-04-22T09:58:06.669466184Z level=info msg="Update check succeeded" duration=31.821626ms
+logger=grafana.update.checker t=2025-04-22T10:08:06.63363898Z level=info msg="Update check succeeded" duration=15.569936ms
+logger=cleanup t=2025-04-22T10:08:06.665837011Z level=info msg="Completed cleanup jobs" duration=107.504774ms
+logger=plugins.update.checker t=2025-04-22T10:08:06.675493436Z level=info msg="Update check succeeded" duration=38.299283ms
+logger=infra.usagestats t=2025-04-22T10:09:19.565132737Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T10:18:06.561137655Z level=info msg="Completed cleanup jobs" duration=1.961683ms
+logger=grafana.update.checker t=2025-04-22T10:18:06.633867037Z level=info msg="Update check succeeded" duration=15.544317ms
+logger=plugins.update.checker t=2025-04-22T10:18:06.670736432Z level=info msg="Update check succeeded" duration=33.862567ms
+logger=cleanup t=2025-04-22T10:28:06.560903929Z level=info msg="Completed cleanup jobs" duration=2.323803ms
+logger=grafana.update.checker t=2025-04-22T10:28:06.634856234Z level=info msg="Update check succeeded" duration=16.825557ms
+logger=plugins.update.checker t=2025-04-22T10:28:06.670521601Z level=info msg="Update check succeeded" duration=33.642237ms
+logger=cleanup t=2025-04-22T10:38:06.561383471Z level=info msg="Completed cleanup jobs" duration=2.886ms
+logger=grafana.update.checker t=2025-04-22T10:38:06.631661488Z level=info msg="Update check succeeded" duration=12.714753ms
+logger=plugins.update.checker t=2025-04-22T10:38:06.674291522Z level=info msg="Update check succeeded" duration=37.610999ms
+logger=infra.usagestats t=2025-04-22T10:39:19.56679282Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T10:48:06.562245602Z level=info msg="Completed cleanup jobs" duration=2.942618ms
+logger=grafana.update.checker t=2025-04-22T10:48:06.630713086Z level=info msg="Update check succeeded" duration=12.614214ms
+logger=plugins.update.checker t=2025-04-22T10:48:06.670187986Z level=info msg="Update check succeeded" duration=33.455101ms
+logger=cleanup t=2025-04-22T10:58:06.561308515Z level=info msg="Completed cleanup jobs" duration=2.827747ms
+logger=grafana.update.checker t=2025-04-22T10:58:06.631062936Z level=info msg="Update check succeeded" duration=12.523393ms
+logger=plugins.update.checker t=2025-04-22T10:58:06.66700701Z level=info msg="Update check succeeded" duration=29.825754ms
+logger=cleanup t=2025-04-22T11:08:06.560931939Z level=info msg="Completed cleanup jobs" duration=2.215478ms
+logger=grafana.update.checker t=2025-04-22T11:08:06.633873779Z level=info msg="Update check succeeded" duration=15.399041ms
+logger=plugins.update.checker t=2025-04-22T11:08:06.67507312Z level=info msg="Update check succeeded" duration=38.288331ms
+logger=infra.usagestats t=2025-04-22T11:09:19.565037345Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T11:18:06.561974634Z level=info msg="Completed cleanup jobs" duration=3.114734ms
+logger=grafana.update.checker t=2025-04-22T11:18:06.635344573Z level=info msg="Update check succeeded" duration=16.65971ms
+logger=plugins.update.checker t=2025-04-22T11:18:06.669579356Z level=info msg="Update check succeeded" duration=32.113665ms
+logger=cleanup t=2025-04-22T11:28:06.560153418Z level=info msg="Completed cleanup jobs" duration=1.829114ms
+logger=grafana.update.checker t=2025-04-22T11:28:06.636325834Z level=info msg="Update check succeeded" duration=17.590186ms
+logger=plugins.update.checker t=2025-04-22T11:28:06.670876368Z level=info msg="Update check succeeded" duration=33.678261ms
+logger=cleanup t=2025-04-22T11:38:06.560964274Z level=info msg="Completed cleanup jobs" duration=2.643219ms
+logger=grafana.update.checker t=2025-04-22T11:38:06.632117134Z level=info msg="Update check succeeded" duration=13.540297ms
+logger=plugins.update.checker t=2025-04-22T11:38:06.667577116Z level=info msg="Update check succeeded" duration=30.334537ms
+logger=infra.usagestats t=2025-04-22T11:39:19.565836875Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T11:48:06.560220922Z level=info msg="Completed cleanup jobs" duration=1.76995ms
+logger=grafana.update.checker t=2025-04-22T11:48:06.632365675Z level=info msg="Update check succeeded" duration=13.843936ms
+logger=plugins.update.checker t=2025-04-22T11:48:06.676385538Z level=info msg="Update check succeeded" duration=38.961806ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T11:50:58.007486843Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.128 time_ms=1 duration=1.584537ms size=29 referer= handler=/
+logger=http.server t=2025-04-22T11:50:58.283560814Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-22T11:58:06.5615911Z level=info msg="Completed cleanup jobs" duration=2.258168ms
+logger=grafana.update.checker t=2025-04-22T11:58:06.631456598Z level=info msg="Update check succeeded" duration=13.30377ms
+logger=plugins.update.checker t=2025-04-22T11:58:06.667289988Z level=info msg="Update check succeeded" duration=29.944401ms
+logger=cleanup t=2025-04-22T12:08:06.559950321Z level=info msg="Completed cleanup jobs" duration=1.635952ms
+logger=grafana.update.checker t=2025-04-22T12:08:06.630812228Z level=info msg="Update check succeeded" duration=12.754877ms
+logger=plugins.update.checker t=2025-04-22T12:08:06.693893012Z level=info msg="Update check succeeded" duration=56.983648ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T12:09:03.462140534Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=198.235.24.200 time_ms=0 duration=143.399µs size=29 referer= handler=/
+logger=infra.usagestats t=2025-04-22T12:09:19.563853364Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T12:18:06.561590795Z level=info msg="Completed cleanup jobs" duration=2.424892ms
+logger=grafana.update.checker t=2025-04-22T12:18:06.631279534Z level=info msg="Update check succeeded" duration=13.246985ms
+logger=plugins.update.checker t=2025-04-22T12:18:06.668176273Z level=info msg="Update check succeeded" duration=30.831475ms
+logger=cleanup t=2025-04-22T12:28:06.562196082Z level=info msg="Completed cleanup jobs" duration=3.588542ms
+logger=grafana.update.checker t=2025-04-22T12:28:06.631384534Z level=info msg="Update check succeeded" duration=12.422519ms
+logger=plugins.update.checker t=2025-04-22T12:28:06.674330555Z level=info msg="Update check succeeded" duration=36.933705ms
+logger=cleanup t=2025-04-22T12:38:06.562540209Z level=info msg="Completed cleanup jobs" duration=3.517358ms
+logger=grafana.update.checker t=2025-04-22T12:38:06.634735509Z level=info msg="Update check succeeded" duration=16.741548ms
+logger=plugins.update.checker t=2025-04-22T12:38:06.66560601Z level=info msg="Update check succeeded" duration=28.71887ms
+logger=infra.usagestats t=2025-04-22T12:39:19.566968341Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T12:44:16.129471292Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=198.235.24.151 time_ms=1 duration=1.681438ms size=29 referer= handler=/
+logger=cleanup t=2025-04-22T12:48:06.56161531Z level=info msg="Completed cleanup jobs" duration=2.564749ms
+logger=grafana.update.checker t=2025-04-22T12:48:06.63327494Z level=info msg="Update check succeeded" duration=14.384029ms
+logger=plugins.update.checker t=2025-04-22T12:48:06.674887528Z level=info msg="Update check succeeded" duration=37.56311ms
+logger=cleanup t=2025-04-22T12:58:06.561207065Z level=info msg="Completed cleanup jobs" duration=2.276051ms
+logger=grafana.update.checker t=2025-04-22T12:58:06.631300567Z level=info msg="Update check succeeded" duration=12.631224ms
+logger=plugins.update.checker t=2025-04-22T12:58:06.67509761Z level=info msg="Update check succeeded" duration=37.650892ms
+logger=cleanup t=2025-04-22T13:08:06.561969728Z level=info msg="Completed cleanup jobs" duration=3.07408ms
+logger=grafana.update.checker t=2025-04-22T13:08:06.636312151Z level=info msg="Update check succeeded" duration=18.314848ms
+logger=plugins.update.checker t=2025-04-22T13:08:06.673817666Z level=info msg="Update check succeeded" duration=36.691528ms
+logger=infra.usagestats t=2025-04-22T13:09:19.564603471Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T13:18:06.561054111Z level=info msg="Completed cleanup jobs" duration=2.695821ms
+logger=grafana.update.checker t=2025-04-22T13:18:06.631744241Z level=info msg="Update check succeeded" duration=13.168564ms
+logger=plugins.update.checker t=2025-04-22T13:18:06.674899786Z level=info msg="Update check succeeded" duration=38.310022ms
+logger=cleanup t=2025-04-22T13:28:06.560950012Z level=info msg="Completed cleanup jobs" duration=2.365604ms
+logger=grafana.update.checker t=2025-04-22T13:28:06.635705877Z level=info msg="Update check succeeded" duration=16.907792ms
+logger=plugins.update.checker t=2025-04-22T13:28:06.674925453Z level=info msg="Update check succeeded" duration=38.285896ms
+logger=cleanup t=2025-04-22T13:38:06.560868123Z level=info msg="Completed cleanup jobs" duration=1.999547ms
+logger=grafana.update.checker t=2025-04-22T13:38:06.631937838Z level=info msg="Update check succeeded" duration=13.206743ms
+logger=plugins.update.checker t=2025-04-22T13:38:06.66857998Z level=info msg="Update check succeeded" duration=31.539057ms
+logger=infra.usagestats t=2025-04-22T13:39:19.566135085Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T13:48:06.560723599Z level=info msg="Completed cleanup jobs" duration=2.153667ms
+logger=grafana.update.checker t=2025-04-22T13:48:06.637117717Z level=info msg="Update check succeeded" duration=18.152279ms
+logger=plugins.update.checker t=2025-04-22T13:48:06.669320278Z level=info msg="Update check succeeded" duration=32.577539ms
+logger=cleanup t=2025-04-22T13:58:06.560234331Z level=info msg="Completed cleanup jobs" duration=1.842087ms
+logger=grafana.update.checker t=2025-04-22T13:58:06.631381787Z level=info msg="Update check succeeded" duration=12.799642ms
+logger=plugins.update.checker t=2025-04-22T13:58:06.671896776Z level=info msg="Update check succeeded" duration=34.419089ms
+logger=cleanup t=2025-04-22T14:08:06.562184022Z level=info msg="Completed cleanup jobs" duration=3.889036ms
+logger=grafana.update.checker t=2025-04-22T14:08:06.633079793Z level=info msg="Update check succeeded" duration=15.080976ms
+logger=plugins.update.checker t=2025-04-22T14:08:06.706287134Z level=info msg="Update check succeeded" duration=69.15419ms
+logger=infra.usagestats t=2025-04-22T14:09:19.565775267Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T14:18:06.561361941Z level=info msg="Completed cleanup jobs" duration=2.047109ms
+logger=grafana.update.checker t=2025-04-22T14:18:06.632576837Z level=info msg="Update check succeeded" duration=14.503781ms
+logger=plugins.update.checker t=2025-04-22T14:18:06.66833198Z level=info msg="Update check succeeded" duration=30.762505ms
+logger=cleanup t=2025-04-22T14:28:06.59636441Z level=info msg="Completed cleanup jobs" duration=36.894828ms
+logger=grafana.update.checker t=2025-04-22T14:28:06.659445495Z level=info msg="Update check succeeded" duration=39.55869ms
+logger=plugins.update.checker t=2025-04-22T14:28:06.685532686Z level=info msg="Update check succeeded" duration=48.814295ms
+logger=cleanup t=2025-04-22T14:38:06.560802759Z level=info msg="Completed cleanup jobs" duration=1.961738ms
+logger=grafana.update.checker t=2025-04-22T14:38:06.63302979Z level=info msg="Update check succeeded" duration=14.124478ms
+logger=plugins.update.checker t=2025-04-22T14:38:06.66652995Z level=info msg="Update check succeeded" duration=29.370168ms
+logger=infra.usagestats t=2025-04-22T14:39:19.564289594Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T14:48:06.560859694Z level=info msg="Completed cleanup jobs" duration=2.578514ms
+logger=grafana.update.checker t=2025-04-22T14:48:06.634140869Z level=info msg="Update check succeeded" duration=16.016106ms
+logger=plugins.update.checker t=2025-04-22T14:48:06.694777499Z level=info msg="Update check succeeded" duration=57.621638ms
+logger=cleanup t=2025-04-22T14:58:06.560381068Z level=info msg="Completed cleanup jobs" duration=1.838972ms
+logger=grafana.update.checker t=2025-04-22T14:58:06.637503976Z level=info msg="Update check succeeded" duration=18.610505ms
+logger=plugins.update.checker t=2025-04-22T14:58:06.689705169Z level=info msg="Update check succeeded" duration=52.576307ms
+logger=cleanup t=2025-04-22T15:08:06.56113897Z level=info msg="Completed cleanup jobs" duration=2.374958ms
+logger=grafana.update.checker t=2025-04-22T15:08:06.63237669Z level=info msg="Update check succeeded" duration=13.420725ms
+logger=plugins.update.checker t=2025-04-22T15:08:06.678300713Z level=info msg="Update check succeeded" duration=40.865434ms
+logger=infra.usagestats t=2025-04-22T15:09:19.56413922Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T15:18:06.561192152Z level=info msg="Completed cleanup jobs" duration=1.90502ms
+logger=grafana.update.checker t=2025-04-22T15:18:06.631435216Z level=info msg="Update check succeeded" duration=13.307678ms
+logger=plugins.update.checker t=2025-04-22T15:18:06.669025914Z level=info msg="Update check succeeded" duration=31.604876ms
+logger=cleanup t=2025-04-22T15:28:06.560740508Z level=info msg="Completed cleanup jobs" duration=2.105006ms
+logger=grafana.update.checker t=2025-04-22T15:28:06.633347459Z level=info msg="Update check succeeded" duration=14.400355ms
+logger=plugins.update.checker t=2025-04-22T15:28:06.673658541Z level=info msg="Update check succeeded" duration=36.231767ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T15:33:16.711903815Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=52.83.92.55 time_ms=1 duration=1.488876ms size=29 referer= handler=/
+logger=http.server t=2025-04-22T15:33:18.438242527Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-22T15:38:06.560926245Z level=info msg="Completed cleanup jobs" duration=1.773959ms
+logger=grafana.update.checker t=2025-04-22T15:38:06.634792316Z level=info msg="Update check succeeded" duration=16.115996ms
+logger=plugins.update.checker t=2025-04-22T15:38:06.666565264Z level=info msg="Update check succeeded" duration=29.74394ms
+logger=infra.usagestats t=2025-04-22T15:39:19.562903925Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T15:48:06.561121133Z level=info msg="Completed cleanup jobs" duration=1.913833ms
+logger=grafana.update.checker t=2025-04-22T15:48:06.635223894Z level=info msg="Update check succeeded" duration=16.190418ms
+logger=plugins.update.checker t=2025-04-22T15:48:06.704713448Z level=info msg="Update check succeeded" duration=67.378586ms
+logger=cleanup t=2025-04-22T15:58:06.561942466Z level=info msg="Completed cleanup jobs" duration=3.337689ms
+logger=grafana.update.checker t=2025-04-22T15:58:06.637974498Z level=info msg="Update check succeeded" duration=19.03538ms
+logger=plugins.update.checker t=2025-04-22T15:58:06.66680997Z level=info msg="Update check succeeded" duration=29.891415ms
+logger=cleanup t=2025-04-22T16:08:06.56174084Z level=info msg="Completed cleanup jobs" duration=3.332783ms
+logger=grafana.update.checker t=2025-04-22T16:08:06.638262764Z level=info msg="Update check succeeded" duration=19.574845ms
+logger=plugins.update.checker t=2025-04-22T16:08:06.682774339Z level=info msg="Update check succeeded" duration=45.799082ms
+logger=infra.usagestats t=2025-04-22T16:09:19.566676433Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T16:18:06.560992497Z level=info msg="Completed cleanup jobs" duration=1.684069ms
+logger=grafana.update.checker t=2025-04-22T16:18:06.635123169Z level=info msg="Update check succeeded" duration=16.872603ms
+logger=plugins.update.checker t=2025-04-22T16:18:06.67487992Z level=info msg="Update check succeeded" duration=37.722603ms
+logger=cleanup t=2025-04-22T16:28:06.562039633Z level=info msg="Completed cleanup jobs" duration=3.519842ms
+logger=grafana.update.checker t=2025-04-22T16:28:06.63522987Z level=info msg="Update check succeeded" duration=16.610205ms
+logger=plugins.update.checker t=2025-04-22T16:28:06.679224242Z level=info msg="Update check succeeded" duration=41.742963ms
+logger=cleanup t=2025-04-22T16:38:06.561644164Z level=info msg="Completed cleanup jobs" duration=2.353802ms
+logger=grafana.update.checker t=2025-04-22T16:38:06.633329953Z level=info msg="Update check succeeded" duration=14.388099ms
+logger=plugins.update.checker t=2025-04-22T16:38:06.67089331Z level=info msg="Update check succeeded" duration=33.469508ms
+logger=infra.usagestats t=2025-04-22T16:39:19.567382575Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T16:48:06.560312652Z level=info msg="Completed cleanup jobs" duration=1.986601ms
+logger=grafana.update.checker t=2025-04-22T16:48:06.631660926Z level=info msg="Update check succeeded" duration=13.412118ms
+logger=plugins.update.checker t=2025-04-22T16:48:06.67027956Z level=info msg="Update check succeeded" duration=33.641313ms
+logger=cleanup t=2025-04-22T16:58:06.561282051Z level=info msg="Completed cleanup jobs" duration=2.24205ms
+logger=grafana.update.checker t=2025-04-22T16:58:06.632073125Z level=info msg="Update check succeeded" duration=13.109544ms
+logger=plugins.update.checker t=2025-04-22T16:58:06.672821109Z level=info msg="Update check succeeded" duration=35.646516ms
+logger=cleanup t=2025-04-22T17:08:06.562078817Z level=info msg="Completed cleanup jobs" duration=3.272192ms
+logger=grafana.update.checker t=2025-04-22T17:08:06.632954612Z level=info msg="Update check succeeded" duration=13.866626ms
+logger=plugins.update.checker t=2025-04-22T17:08:06.672669909Z level=info msg="Update check succeeded" duration=35.622479ms
+logger=infra.usagestats t=2025-04-22T17:09:19.564360728Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T17:18:06.561068735Z level=info msg="Completed cleanup jobs" duration=2.378121ms
+logger=grafana.update.checker t=2025-04-22T17:18:06.636993499Z level=info msg="Update check succeeded" duration=18.343867ms
+logger=plugins.update.checker t=2025-04-22T17:18:06.671997913Z level=info msg="Update check succeeded" duration=35.109302ms
+logger=cleanup t=2025-04-22T17:28:06.561248885Z level=info msg="Completed cleanup jobs" duration=2.194945ms
+logger=grafana.update.checker t=2025-04-22T17:28:06.666403168Z level=info msg="Update check succeeded" duration=48.385087ms
+logger=plugins.update.checker t=2025-04-22T17:28:06.669760806Z level=info msg="Update check succeeded" duration=32.969407ms
+logger=cleanup t=2025-04-22T17:38:06.560793793Z level=info msg="Completed cleanup jobs" duration=2.44412ms
+logger=grafana.update.checker t=2025-04-22T17:38:06.632349552Z level=info msg="Update check succeeded" duration=14.036426ms
+logger=plugins.update.checker t=2025-04-22T17:38:06.674336264Z level=info msg="Update check succeeded" duration=36.929658ms
+logger=infra.usagestats t=2025-04-22T17:39:19.564672576Z level=info msg="Usage stats are ready to report"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T17:40:42.304546712Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=136.50.200.208 time_ms=3 duration=3.118825ms size=47 referer= handler=/
+logger=context userId=0 orgId=0 uname= t=2025-04-22T17:40:42.333140641Z level=info msg="Request Completed" method=GET path=/user/auth-tokens/rotate status=302 remote_addr=136.50.200.208 time_ms=11 duration=11.76062ms size=24 referer= handler=/user/auth-tokens/rotate
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T17:40:43.386821062Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=136.50.200.208 time_ms=2 duration=2.192069ms size=0 referer= handler=/api/live/ws
+logger=cleanup t=2025-04-22T17:48:06.573449545Z level=info msg="Completed cleanup jobs" duration=14.828623ms
+logger=grafana.update.checker t=2025-04-22T17:48:06.63831477Z level=info msg="Update check succeeded" duration=19.2988ms
+logger=plugins.update.checker t=2025-04-22T17:48:06.67165753Z level=info msg="Update check succeeded" duration=34.60824ms
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T17:55:51.945454659Z level=info msg="Request Completed" method=POST path=/api/ds/query status=400 remote_addr=136.50.200.208 time_ms=37 duration=37.682158ms size=323 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/api/ds/query
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T17:55:51.95632561Z level=info msg="Request Completed" method=POST path=/api/ds/query status=400 remote_addr=136.50.200.208 time_ms=49 duration=49.854441ms size=335 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/api/ds/query
+logger=cleanup t=2025-04-22T17:58:06.560903165Z level=info msg="Completed cleanup jobs" duration=1.89504ms
+logger=grafana.update.checker t=2025-04-22T17:58:06.643870855Z level=info msg="Update check succeeded" duration=24.86972ms
+logger=plugins.update.checker t=2025-04-22T17:58:06.675221614Z level=info msg="Update check succeeded" duration=38.019591ms
+logger=cleanup t=2025-04-22T18:08:06.568912649Z level=info msg="Completed cleanup jobs" duration=10.628759ms
+logger=grafana.update.checker t=2025-04-22T18:08:06.631546138Z level=info msg="Update check succeeded" duration=13.205756ms
+logger=plugins.update.checker t=2025-04-22T18:08:06.67233034Z level=info msg="Update check succeeded" duration=34.697957ms
+logger=infra.usagestats t=2025-04-22T18:09:19.565469212Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T18:18:06.560559956Z level=info msg="Completed cleanup jobs" duration=1.992727ms
+logger=grafana.update.checker t=2025-04-22T18:18:06.635911681Z level=info msg="Update check succeeded" duration=17.059178ms
+logger=plugins.update.checker t=2025-04-22T18:18:06.672277978Z level=info msg="Update check succeeded" duration=35.256426ms
+logger=cleanup t=2025-04-22T18:28:06.560336481Z level=info msg="Completed cleanup jobs" duration=1.766473ms
+logger=grafana.update.checker t=2025-04-22T18:28:06.637121908Z level=info msg="Update check succeeded" duration=18.393368ms
+logger=plugins.update.checker t=2025-04-22T18:28:06.668609457Z level=info msg="Update check succeeded" duration=31.714795ms
+logger=cleanup t=2025-04-22T18:38:06.560839124Z level=info msg="Completed cleanup jobs" duration=1.994831ms
+logger=grafana.update.checker t=2025-04-22T18:38:06.636951995Z level=info msg="Update check succeeded" duration=18.668481ms
+logger=plugins.update.checker t=2025-04-22T18:38:06.695468364Z level=info msg="Update check succeeded" duration=58.648031ms
+logger=infra.usagestats t=2025-04-22T18:39:19.563135374Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T18:48:06.561702142Z level=info msg="Completed cleanup jobs" duration=3.004325ms
+logger=grafana.update.checker t=2025-04-22T18:48:06.640127123Z level=info msg="Update check succeeded" duration=21.299941ms
+logger=plugins.update.checker t=2025-04-22T18:48:06.683522892Z level=info msg="Update check succeeded" duration=46.24626ms
+logger=cleanup t=2025-04-22T18:58:06.561128174Z level=info msg="Completed cleanup jobs" duration=2.073788ms
+logger=grafana.update.checker t=2025-04-22T18:58:06.631339483Z level=info msg="Update check succeeded" duration=13.022378ms
+logger=plugins.update.checker t=2025-04-22T18:58:06.674447522Z level=info msg="Update check succeeded" duration=36.979698ms
+logger=cleanup t=2025-04-22T19:08:06.560164596Z level=info msg="Completed cleanup jobs" duration=1.873341ms
+logger=grafana.update.checker t=2025-04-22T19:08:06.633155362Z level=info msg="Update check succeeded" duration=15.100444ms
+logger=plugins.update.checker t=2025-04-22T19:08:06.678341916Z level=info msg="Update check succeeded" duration=41.035468ms
+logger=infra.usagestats t=2025-04-22T19:09:19.563001969Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T19:18:06.561040836Z level=info msg="Completed cleanup jobs" duration=1.98355ms
+logger=grafana.update.checker t=2025-04-22T19:18:06.633517922Z level=info msg="Update check succeeded" duration=14.493563ms
+logger=plugins.update.checker t=2025-04-22T19:18:06.670766415Z level=info msg="Update check succeeded" duration=33.196886ms
+logger=cleanup t=2025-04-22T19:28:06.560928592Z level=info msg="Completed cleanup jobs" duration=1.813518ms
+logger=grafana.update.checker t=2025-04-22T19:28:06.652216754Z level=info msg="Update check succeeded" duration=34.191103ms
+logger=plugins.update.checker t=2025-04-22T19:28:06.667304002Z level=info msg="Update check succeeded" duration=30.099783ms
+logger=cleanup t=2025-04-22T19:38:06.560572669Z level=info msg="Completed cleanup jobs" duration=1.768309ms
+logger=grafana.update.checker t=2025-04-22T19:38:06.637120509Z level=info msg="Update check succeeded" duration=18.828243ms
+logger=plugins.update.checker t=2025-04-22T19:38:06.670677446Z level=info msg="Update check succeeded" duration=33.730308ms
+logger=infra.usagestats t=2025-04-22T19:39:19.56315235Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T19:48:06.561264897Z level=info msg="Completed cleanup jobs" duration=2.097704ms
+logger=grafana.update.checker t=2025-04-22T19:48:06.63254612Z level=info msg="Update check succeeded" duration=13.44788ms
+logger=plugins.update.checker t=2025-04-22T19:48:06.675864761Z level=info msg="Update check succeeded" duration=38.202591ms
+logger=cleanup t=2025-04-22T19:58:06.560421302Z level=info msg="Completed cleanup jobs" duration=1.753923ms
+logger=grafana.update.checker t=2025-04-22T19:58:06.632103842Z level=info msg="Update check succeeded" duration=13.732598ms
+logger=plugins.update.checker t=2025-04-22T19:58:06.675296939Z level=info msg="Update check succeeded" duration=38.105418ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:02:15.151990293Z level=info msg="Request Completed" method=GET path=/v2/_catalog status=302 remote_addr=8.211.47.162 time_ms=0 duration=595.045µs size=29 referer= handler=notfound
+logger=http.server t=2025-04-22T20:02:15.410297062Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:02:55.69385731Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=111.7.96.180 time_ms=0 duration=197.97µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T20:02:56.465029878Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:02:57.423097716Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=111.7.96.180 time_ms=0 duration=108.418µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T20:02:57.915210273Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:03:12.658574014Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=111.7.106.104 time_ms=0 duration=109.406µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T20:03:13.254975368Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:03:14.17808047Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=111.7.106.104 time_ms=0 duration=113.346µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T20:03:14.66484075Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-22T20:08:06.565502542Z level=info msg="Completed cleanup jobs" duration=1.048749ms
+logger=grafana.update.checker t=2025-04-22T20:08:06.631543853Z level=info msg="Update check succeeded" duration=13.235233ms
+logger=plugins.update.checker t=2025-04-22T20:08:06.676006466Z level=info msg="Update check succeeded" duration=38.320556ms
+logger=infra.usagestats t=2025-04-22T20:09:19.563199088Z level=info msg="Usage stats are ready to report"
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T20:17:03.914424023Z level=info msg="Request Completed" method=POST path=/api/ds/query status=400 remote_addr=136.50.200.208 time_ms=60 duration=60.795333ms size=335 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/api/ds/query
+logger=context userId=1 orgId=1 uname=admin t=2025-04-22T20:17:03.935609498Z level=info msg="Request Completed" method=POST path=/api/ds/query status=400 remote_addr=136.50.200.208 time_ms=31 duration=31.591187ms size=561 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/api/ds/query
+logger=cleanup t=2025-04-22T20:18:06.561183589Z level=info msg="Completed cleanup jobs" duration=2.079178ms
+logger=grafana.update.checker t=2025-04-22T20:18:06.633540665Z level=info msg="Update check succeeded" duration=14.560663ms
+logger=plugins.update.checker t=2025-04-22T20:18:06.67189642Z level=info msg="Update check succeeded" duration=34.384965ms
+logger=cleanup t=2025-04-22T20:28:06.561060077Z level=info msg="Completed cleanup jobs" duration=1.733628ms
+logger=grafana.update.checker t=2025-04-22T20:28:06.632771964Z level=info msg="Update check succeeded" duration=14.65086ms
+logger=plugins.update.checker t=2025-04-22T20:28:06.669919375Z level=info msg="Update check succeeded" duration=33.025581ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:35:22.747476543Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=205.210.31.111 time_ms=0 duration=125.136µs size=29 referer= handler=/
+logger=cleanup t=2025-04-22T20:38:06.560434651Z level=info msg="Completed cleanup jobs" duration=2.086907ms
+logger=grafana.update.checker t=2025-04-22T20:38:06.639894759Z level=info msg="Update check succeeded" duration=20.836638ms
+logger=plugins.update.checker t=2025-04-22T20:38:06.671653721Z level=info msg="Update check succeeded" duration=34.4323ms
+logger=infra.usagestats t=2025-04-22T20:39:19.565315501Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T20:48:06.561128124Z level=info msg="Completed cleanup jobs" duration=1.930209ms
+logger=grafana.update.checker t=2025-04-22T20:48:06.636615172Z level=info msg="Update check succeeded" duration=18.545909ms
+logger=plugins.update.checker t=2025-04-22T20:48:06.671520695Z level=info msg="Update check succeeded" duration=34.907478ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T20:51:45.191601819Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=172.58.180.240 time_ms=0 duration=125.909µs size=29 referer=android-app://com.google.android.gm/ handler=/
+logger=http.server t=2025-04-22T20:51:45.242979525Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T20:52:37.398512637Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.240 time_ms=1 duration=1.605658ms size=0 referer= handler=/api/live/ws
+logger=http.server t=2025-04-22T20:55:19.507902818Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T20:55:23.478391885Z level=error msg="no admin configuration available" error="no admin configuration available" remote_addr=172.58.180.240 traceID=
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T20:55:23.478516974Z level=info msg="Request Completed" method=GET path=/api/v1/ngalert/admin_config status=404 remote_addr=172.58.180.240 time_ms=7 duration=7.067642ms size=59 referer=http://itsaenergy.com:3000/alerting/admin handler=/api/v1/ngalert/admin_config
+logger=live t=2025-04-22T20:56:04.083048193Z level=info msg="Initialized channel handler" channel=grafana/dashboard/uid/af22ed52-9bb3-4f69-a5aa-b25c11e01a2f address=grafana/dashboard/uid/af22ed52-9bb3-4f69-a5aa-b25c11e01a2f
+logger=cleanup t=2025-04-22T20:58:06.560972357Z level=info msg="Completed cleanup jobs" duration=1.961383ms
+logger=grafana.update.checker t=2025-04-22T20:58:06.633204458Z level=info msg="Update check succeeded" duration=14.348677ms
+logger=plugins.update.checker t=2025-04-22T20:58:06.673091257Z level=info msg="Update check succeeded" duration=35.788103ms
+logger=secrets.kvstore t=2025-04-22T21:03:33.172323126Z level=error msg="error getting secret value" orgId=1 type=datasource namespace=grafana-postgresql-points err="context canceled"
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T21:03:33.175831911Z level=error msg="Client closed request" error="[api.requestCanceled] response: request canceled: context canceled" remote_addr=172.58.180.240 traceID=
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T21:03:33.176028218Z level=info msg="Request Completed" method=POST path=/api/ds/query status=499 remote_addr=172.58.180.240 time_ms=20 duration=20.069154ms size=94 referer="http://itsaenergy.com:3000/d/b595cc31-9678-483e-ae4f-ab44c4e18abb/demo?orgId=1&refresh=5s" handler=/api/ds/query
+logger=context userId=2 orgId=1 uname=melvin.henry@nfmconsulting.com t=2025-04-22T21:03:35.912739184Z level=info msg="Request Completed" method=GET path=/api/live/ws status=-1 remote_addr=172.58.180.240 time_ms=1 duration=1.202554ms size=0 referer= handler=/api/live/ws
+logger=cleanup t=2025-04-22T21:08:06.560972511Z level=info msg="Completed cleanup jobs" duration=1.991606ms
+logger=grafana.update.checker t=2025-04-22T21:08:06.638607549Z level=info msg="Update check succeeded" duration=20.510927ms
+logger=plugins.update.checker t=2025-04-22T21:08:06.68299994Z level=info msg="Update check succeeded" duration=45.977903ms
+logger=infra.usagestats t=2025-04-22T21:09:19.56341992Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T21:18:06.560393191Z level=info msg="Completed cleanup jobs" duration=2.081548ms
+logger=grafana.update.checker t=2025-04-22T21:18:06.632946641Z level=info msg="Update check succeeded" duration=14.848642ms
+logger=plugins.update.checker t=2025-04-22T21:18:06.672239072Z level=info msg="Update check succeeded" duration=35.306759ms
+logger=cleanup t=2025-04-22T21:28:06.560875299Z level=info msg="Completed cleanup jobs" duration=1.884873ms
+logger=grafana.update.checker t=2025-04-22T21:28:06.635416732Z level=info msg="Update check succeeded" duration=16.873399ms
+logger=plugins.update.checker t=2025-04-22T21:28:06.674519016Z level=info msg="Update check succeeded" duration=37.13764ms
+logger=cleanup t=2025-04-22T21:38:06.561063575Z level=info msg="Completed cleanup jobs" duration=2.012262ms
+logger=grafana.update.checker t=2025-04-22T21:38:06.655487882Z level=info msg="Update check succeeded" duration=37.01245ms
+logger=plugins.update.checker t=2025-04-22T21:38:06.680433346Z level=info msg="Update check succeeded" duration=43.809449ms
+logger=infra.usagestats t=2025-04-22T21:39:19.563498027Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T21:48:06.561008713Z level=info msg="Completed cleanup jobs" duration=2.224955ms
+logger=grafana.update.checker t=2025-04-22T21:48:06.637599146Z level=info msg="Update check succeeded" duration=18.939481ms
+logger=plugins.update.checker t=2025-04-22T21:48:06.670490918Z level=info msg="Update check succeeded" duration=33.350238ms
+logger=cleanup t=2025-04-22T21:58:06.560572512Z level=info msg="Completed cleanup jobs" duration=1.749377ms
+logger=grafana.update.checker t=2025-04-22T21:58:06.637051134Z level=info msg="Update check succeeded" duration=18.286363ms
+logger=plugins.update.checker t=2025-04-22T21:58:06.67323757Z level=info msg="Update check succeeded" duration=36.331238ms
+logger=cleanup t=2025-04-22T22:08:06.559954228Z level=info msg="Completed cleanup jobs" duration=1.133867ms
+logger=grafana.update.checker t=2025-04-22T22:08:06.634037566Z level=info msg="Update check succeeded" duration=15.543158ms
+logger=plugins.update.checker t=2025-04-22T22:08:06.677070196Z level=info msg="Update check succeeded" duration=39.928564ms
+logger=infra.usagestats t=2025-04-22T22:09:19.563593852Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T22:18:06.561364139Z level=info msg="Completed cleanup jobs" duration=2.134009ms
+logger=grafana.update.checker t=2025-04-22T22:18:06.633984315Z level=info msg="Update check succeeded" duration=15.536476ms
+logger=plugins.update.checker t=2025-04-22T22:18:06.672675072Z level=info msg="Update check succeeded" duration=35.683442ms
+logger=cleanup t=2025-04-22T22:28:06.561455549Z level=info msg="Completed cleanup jobs" duration=2.203971ms
+logger=grafana.update.checker t=2025-04-22T22:28:06.633452141Z level=info msg="Update check succeeded" duration=15.124119ms
+logger=plugins.update.checker t=2025-04-22T22:28:06.676972257Z level=info msg="Update check succeeded" duration=39.401083ms
+logger=cleanup t=2025-04-22T22:38:06.560556355Z level=info msg="Completed cleanup jobs" duration=1.737703ms
+logger=grafana.update.checker t=2025-04-22T22:38:06.64284846Z level=info msg="Update check succeeded" duration=24.576668ms
+logger=plugins.update.checker t=2025-04-22T22:38:06.673545545Z level=info msg="Update check succeeded" duration=36.480073ms
+logger=infra.usagestats t=2025-04-22T22:39:19.563022944Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T22:48:06.561225602Z level=info msg="Completed cleanup jobs" duration=2.085066ms
+logger=grafana.update.checker t=2025-04-22T22:48:06.637691265Z level=info msg="Update check succeeded" duration=18.647925ms
+logger=plugins.update.checker t=2025-04-22T22:48:06.672456215Z level=info msg="Update check succeeded" duration=35.384933ms
+logger=cleanup t=2025-04-22T22:58:06.56113293Z level=info msg="Completed cleanup jobs" duration=2.063639ms
+logger=grafana.update.checker t=2025-04-22T22:58:06.637476592Z level=info msg="Update check succeeded" duration=19.480255ms
+logger=plugins.update.checker t=2025-04-22T22:58:06.679490088Z level=info msg="Update check succeeded" duration=42.194126ms
+logger=cleanup t=2025-04-22T23:08:06.560978576Z level=info msg="Completed cleanup jobs" duration=1.69515ms
+logger=grafana.update.checker t=2025-04-22T23:08:06.638172228Z level=info msg="Update check succeeded" duration=19.861012ms
+logger=plugins.update.checker t=2025-04-22T23:08:06.674822418Z level=info msg="Update check succeeded" duration=37.603775ms
+logger=infra.usagestats t=2025-04-22T23:09:19.563010513Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T23:18:06.560273176Z level=info msg="Completed cleanup jobs" duration=1.88852ms
+logger=grafana.update.checker t=2025-04-22T23:18:06.652757149Z level=info msg="Update check succeeded" duration=34.244029ms
+logger=plugins.update.checker t=2025-04-22T23:18:06.676579954Z level=info msg="Update check succeeded" duration=35.542297ms
+logger=cleanup t=2025-04-22T23:28:06.560809806Z level=info msg="Completed cleanup jobs" duration=2.098234ms
+logger=grafana.update.checker t=2025-04-22T23:28:06.634366167Z level=info msg="Update check succeeded" duration=16.363336ms
+logger=plugins.update.checker t=2025-04-22T23:28:06.666055275Z level=info msg="Update check succeeded" duration=28.689472ms
+logger=context userId=0 orgId=0 uname= t=2025-04-22T23:34:53.144494446Z level=info msg="Request Completed" method=GET path=/ status=302 remote_addr=18.223.97.41 time_ms=0 duration=133.785µs size=29 referer= handler=/
+logger=http.server t=2025-04-22T23:34:53.176048618Z level=error msg="Failed to parse user ID" error="identifier is not initialized"
+logger=cleanup t=2025-04-22T23:38:06.560917489Z level=info msg="Completed cleanup jobs" duration=1.861741ms
+logger=grafana.update.checker t=2025-04-22T23:38:06.645471602Z level=info msg="Update check succeeded" duration=26.599714ms
+logger=plugins.update.checker t=2025-04-22T23:38:06.701273114Z level=info msg="Update check succeeded" duration=63.931566ms
+logger=infra.usagestats t=2025-04-22T23:39:19.563517713Z level=info msg="Usage stats are ready to report"
+logger=cleanup t=2025-04-22T23:48:06.561217639Z level=info msg="Completed cleanup jobs" duration=1.852306ms
+logger=grafana.update.checker t=2025-04-22T23:48:06.631078781Z level=info msg="Update check succeeded" duration=12.969461ms
+logger=plugins.update.checker t=2025-04-22T23:48:06.670334656Z level=info msg="Update check succeeded" duration=33.132213ms
+logger=cleanup t=2025-04-22T23:58:06.560290427Z level=info msg="Completed cleanup jobs" duration=1.935903ms
+logger=grafana.update.checker t=2025-04-22T23:58:06.63880137Z level=info msg="Update check succeeded" duration=20.265253ms
+logger=plugins.update.checker t=2025-04-22T23:58:06.675145421Z level=info msg="Update check succeeded" duration=38.177437ms

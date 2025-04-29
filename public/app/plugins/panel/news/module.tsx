@@ -1,24 +1,36 @@
+// public/app/plugins/panel/news/module.tsx
+
 import { PanelPlugin } from '@grafana/data';
+import React from 'react';
 
-import { NewsPanel } from './NewsPanel';
-import { DEFAULT_FEED_URL } from './constants';
-import { Options, defaultOptions } from './panelcfg.gen';
+// 🔒 Dummy panel to suppress Grafana load error (safe white-labeling)
+const DummyPanel = () => {
+    return null; // render nothing
+};
 
-export const plugin = new PanelPlugin<Options>(NewsPanel).setPanelOptions((builder) => {
-  builder
-    .addTextInput({
-      path: 'feedUrl',
-      name: 'URL',
-      description: 'Supports RSS and Atom feeds',
-      settings: {
-        placeholder: DEFAULT_FEED_URL,
-      },
-      defaultValue: defaultOptions.feedUrl,
-    })
-    .addBooleanSwitch({
-      path: 'showImage',
-      name: 'Show image',
-      description: 'Controls if the news item social (og:image) image is shown above text content',
-      defaultValue: defaultOptions.showImage,
-    });
-});
+// ✅ Register dummy plugin to avoid errors
+export const plugin = new PanelPlugin(DummyPanel);
+
+
+// import { NewsPanel } from './NewsPanel';
+// import { DEFAULT_FEED_URL } from './constants';
+// import { Options, defaultOptions } from './panelcfg.gen';
+
+// export const plugin = new PanelPlugin<Options>(NewsPanel).setPanelOptions((builder) => {
+//   builder
+//     .addTextInput({
+//       path: 'feedUrl',
+//       name: 'URL',
+//       description: 'Supports RSS and Atom feeds',
+//       settings: {
+//         placeholder: DEFAULT_FEED_URL,
+//       },
+//       defaultValue: defaultOptions.feedUrl,
+//     })
+//     .addBooleanSwitch({
+//       path: 'showImage',
+//       name: 'Show image',
+//       description: 'Controls if the news item social (og:image) image is shown above text content',
+//       defaultValue: defaultOptions.showImage,
+//     });
+// });

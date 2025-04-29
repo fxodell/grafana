@@ -25,8 +25,8 @@ export interface LoginLayoutProps {
 export const LoginLayout = ({ children, branding, isChangingPassword }: React.PropsWithChildren<LoginLayoutProps>) => {
   const loginStyles = useStyles2(getLoginStyles);
   const [startAnim, setStartAnim] = useState(false);
-  const subTitle = branding?.loginSubtitle ?? Branding.GetLoginSubTitle();
-  const loginTitle = branding?.loginTitle ?? Branding.LoginTitle;
+  const subTitle = "Secure access to your NFM Consulting.com dashboard";
+  const loginTitle = "Welcome to NFM Consulting";
   const loginBoxBackground = branding?.loginBoxBackground || Branding.LoginBoxBackground();
   const loginLogo = branding?.loginLogo;
   const hideEdition = branding?.hideEdition ?? Branding.HideEdition;
@@ -55,7 +55,15 @@ export const LoginLayout = ({ children, branding, isChangingPassword }: React.Pr
           <div className={loginStyles.loginOuterBox}>{children}</div>
         </div>
       </div>
-      {branding?.hideFooter ? <></> : <Footer hideEdition={hideEdition} customLinks={branding?.footerLinks} />}
+      {branding?.hideFooter ? <></> : <Footer
+        hideEdition={true}
+        customLinks={[
+          {
+            href: 'https://nfmconsulting.com',
+            label: 'Powered by NFM Consulting.com',
+          },
+        ]}
+      />}
     </Branding.LoginBackground>
   );
 };

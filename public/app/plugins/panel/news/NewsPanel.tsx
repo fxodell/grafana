@@ -1,17 +1,20 @@
 import React, { useEffect } from 'react';
 
-import { PanelProps } from '@grafana/data';
-import { RefreshEvent } from '@grafana/runtime';
-import { Alert, CustomScrollbar, Icon } from '@grafana/ui';
+// import { PanelProps } from '@grafana/data';
+// import { RefreshEvent } from '@grafana/runtime';
+// import { Alert, CustomScrollbar, Icon } from '@grafana/ui';
+// import { News } from './component/News';
+// import { DEFAULT_FEED_URL } from './constants';
+// import { Options } from './panelcfg.gen';
+// import { useNewsFeed } from './useNewsFeed';
 
-import { News } from './component/News';
-import { DEFAULT_FEED_URL } from './constants';
-import { Options } from './panelcfg.gen';
-import { useNewsFeed } from './useNewsFeed';
+// interface NewsPanelProps extends PanelProps<Options> {}
 
-interface NewsPanelProps extends PanelProps<Options> {}
+export function NewsPanel(/* props: NewsPanelProps */) {
+  // NFM Consulting: Disabled blog panel for white-label build
+  return null;
 
-export function NewsPanel(props: NewsPanelProps) {
+  /*
   const {
     width,
     options: { feedUrl = DEFAULT_FEED_URL, showImage },
@@ -21,10 +24,7 @@ export function NewsPanel(props: NewsPanelProps) {
 
   useEffect(() => {
     const sub = props.eventBus.subscribe(RefreshEvent, getNews);
-
-    return () => {
-      sub.unsubscribe();
-    };
+    return () => sub.unsubscribe();
   }, [getNews, props.eventBus]);
 
   useEffect(() => {
@@ -44,6 +44,7 @@ export function NewsPanel(props: NewsPanelProps) {
       </Alert>
     );
   }
+
   if (state.loading) {
     return <div>Loading...</div>;
   }
@@ -59,4 +60,5 @@ export function NewsPanel(props: NewsPanelProps) {
       })}
     </CustomScrollbar>
   );
+  */
 }
