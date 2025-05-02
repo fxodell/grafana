@@ -219,3 +219,4 @@ logs/*.log*
 # Ignore email‐template backups
 public/emails/*.bak*
 public/emails/*-bac.html
+logs/grafana.log
