@@ -1,3 +1,5 @@
+// public/app/features/alerting/unified/components/AlertManagerPicker.tsx
+
 import { css } from '@emotion/css';
 import React, { useMemo } from 'react';
 
@@ -12,21 +14,27 @@ interface Props {
 }
 
 function getAlertManagerLabel(alertManager: AlertManagerDataSource) {
-  return alertManager.name === GRAFANA_RULES_SOURCE_NAME ? 'Grafana' : alertManager.name.slice(0, 37);
+  // leave the visible label as “Grafana” for the built-in source,
+  // but we’ll drop it entirely in options below
+  return alertManager.name === GRAFANA_RULES_SOURCE_NAME
+    ? 'Grafana'
+    : alertManager.name.slice(0, 37);
 }
 
 export const AlertManagerPicker = ({ disabled = false }: Props) => {
   const styles = useStyles2(getStyles);
-
   const { selectedAlertmanager, availableAlertManagers, setSelectedAlertmanager } = useAlertmanager();
 
   const options: Array<SelectableValue<string>> = useMemo(() => {
-    return availableAlertManagers.map((ds) => ({
-      label: getAlertManagerLabel(ds),
-      value: ds.name,
-      imgUrl: ds.imgUrl,
-      meta: ds.meta,
-    }));
+    return availableAlertManagers
+      // hide the built-in Grafana Alertmanager entirely
+      .filter((ds) => ds.name !== GRAFANA_RULES_SOURCE_NAME)
+      .map((ds) => ({
+        label: getAlertManagerLabel(ds),
+        value: ds.name,
+        imgUrl: ds.imgUrl,
+        meta: ds.meta,
+      }));
   }, [availableAlertManagers]);
 
   return (
