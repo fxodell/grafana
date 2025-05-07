@@ -220,3 +220,10 @@ logs/*.log*
 public/emails/*.bak*
 public/emails/*-bac.html
 logs/grafana.log
+
+# Ignore standalone Grafana log
+grafana.log
+
+# Or if it lives under logs/:
+logs/grafana.log
+

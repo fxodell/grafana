@@ -21,3 +21,10 @@ logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_i
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:16:00.472517786Z level=info msg="Sending alerts to local notifier" count=6
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:17:00.437987985Z level=info msg="Sending alerts to local notifier" count=6
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:18:00.489066859Z level=info msg="Sending alerts to local notifier" count=6
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:19:00.420168635Z level=info msg="Sending alerts to local notifier" count=6
+logger=cleanup t=2025-05-07T00:19:28.377067054Z level=info msg="Completed cleanup jobs" duration=2.386016ms
+logger=grafana.update.checker t=2025-05-07T00:19:28.624165181Z level=info msg="Update check succeeded" duration=26.542511ms
+logger=plugins.update.checker t=2025-05-07T00:19:28.667606659Z level=info msg="Update check succeeded" duration=42.283516ms
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:20:00.446263767Z level=info msg="Sending alerts to local notifier" count=6
+logger=infra.usagestats t=2025-05-07T00:20:24.451633465Z level=info msg="Usage stats are ready to report"
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:21:00.537069877Z level=info msg="Sending alerts to local notifier" count=6
