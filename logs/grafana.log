@@ -19,3 +19,5 @@ logger=infra.usagestats t=2025-05-07T00:13:52.066358853Z level=info msg="Sent us
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:14:00.463680347Z level=info msg="Sending alerts to local notifier" count=6
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:15:00.507217273Z level=info msg="Sending alerts to local notifier" count=6
 logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:16:00.472517786Z level=info msg="Sending alerts to local notifier" count=6
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:17:00.437987985Z level=info msg="Sending alerts to local notifier" count=6
+logger=ngalert.sender.router rule_uid=e7339430-ed3b-47e7-9d3f-3d75b8f5d330 org_id=1 t=2025-05-07T00:18:00.489066859Z level=info msg="Sending alerts to local notifier" count=6
